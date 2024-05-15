@@ -1,0 +1,14 @@
+/home/daniel/Documents/osu/test/osu-tools/mass-balancer/bin/Debug/net8.0/mass-balancer
+/home/daniel/Documents/osu/test/osu-tools/mass-balancer/bin/Debug/net8.0/mass-balancer.deps.json
+/home/daniel/Documents/osu/test/osu-tools/mass-balancer/bin/Debug/net8.0/mass-balancer.runtimeconfig.json
+/home/daniel/Documents/osu/test/osu-tools/mass-balancer/bin/Debug/net8.0/mass-balancer.dll
+/home/daniel/Documents/osu/test/osu-tools/mass-balancer/bin/Debug/net8.0/mass-balancer.pdb
+/home/daniel/Documents/osu/test/osu-tools/mass-balancer/obj/Debug/net8.0/mass-balancer.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Documents/osu/test/osu-tools/mass-balancer/obj/Debug/net8.0/mass-balancer.AssemblyInfoInputs.cache
+/home/daniel/Documents/osu/test/osu-tools/mass-balancer/obj/Debug/net8.0/mass-balancer.AssemblyInfo.cs
+/home/daniel/Documents/osu/test/osu-tools/mass-balancer/obj/Debug/net8.0/mass-balancer.csproj.CoreCompileInputs.cache
+/home/daniel/Documents/osu/test/osu-tools/mass-balancer/obj/Debug/net8.0/mass-balancer.dll
+/home/daniel/Documents/osu/test/osu-tools/mass-balancer/obj/Debug/net8.0/refint/mass-balancer.dll
+/home/daniel/Documents/osu/test/osu-tools/mass-balancer/obj/Debug/net8.0/mass-balancer.pdb
+/home/daniel/Documents/osu/test/osu-tools/mass-balancer/obj/Debug/net8.0/mass-balancer.genruntimeconfig.cache
+/home/daniel/Documents/osu/test/osu-tools/mass-balancer/obj/Debug/net8.0/ref/mass-balancer.dll

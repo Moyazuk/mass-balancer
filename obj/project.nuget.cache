@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "N/UUIiEF0r0EH+RdWUgHwISTpEtPvL8AzypdaP1gYfftTBrK146Aw2LLUCh2mnyuMwjzPY28YnwzqhzSozzjDQ==",
+  "success": true,
+  "projectFilePath": "/home/daniel/Documents/osu/test/osu-tools/mass-balancer/mass-balancer.csproj",
+  "expectedPackageFiles": [
+    "/home/daniel/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.3/microsoft.aspnetcore.app.ref.8.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
