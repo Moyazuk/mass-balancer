@@ -5,7 +5,7 @@ $PROJECTS=@(
     "mass-balancer.csproj"
 )
 
-$SLN="osu.Tools.sln"
+$SLN="mass-balancer.sln"
 
 $DEPENDENCIES=@(
     "..\osu\osu.Game.Rulesets.Catch\osu.Game.Rulesets.Catch.csproj"
