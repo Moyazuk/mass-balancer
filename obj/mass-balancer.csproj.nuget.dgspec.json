@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/daniel/Documents/osu/test/osu-tools/mass-balancer/mass-balancer.csproj": {}
+    "/home/daniel/Documents/osu/mass-balancer/mass-balancer.csproj": {}
   },
   "projects": {
-    "/home/daniel/Documents/osu/test/osu-tools/mass-balancer/mass-balancer.csproj": {
+    "/home/daniel/Documents/osu/mass-balancer/mass-balancer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/daniel/Documents/osu/test/osu-tools/mass-balancer/mass-balancer.csproj",
+        "projectUniqueName": "/home/daniel/Documents/osu/mass-balancer/mass-balancer.csproj",
         "projectName": "mass-balancer",
-        "projectPath": "/home/daniel/Documents/osu/test/osu-tools/mass-balancer/mass-balancer.csproj",
+        "projectPath": "/home/daniel/Documents/osu/mass-balancer/mass-balancer.csproj",
         "packagesPath": "/home/daniel/.nuget/packages/",
-        "outputPath": "/home/daniel/Documents/osu/test/osu-tools/mass-balancer/obj/",
+        "outputPath": "/home/daniel/Documents/osu/mass-balancer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/daniel/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,32 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "McMaster.Extensions.CommandLineUtils": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "ppy.osu.Game": {
+              "target": "Package",
+              "version": "[2023.1224.0, )"
+            },
+            "ppy.osu.Game.Rulesets.Catch": {
+              "target": "Package",
+              "version": "[2023.1224.0, )"
+            },
+            "ppy.osu.Game.Rulesets.Mania": {
+              "target": "Package",
+              "version": "[2023.1224.0, )"
+            },
+            "ppy.osu.Game.Rulesets.Osu": {
+              "target": "Package",
+              "version": "[2023.1224.0, )"
+            },
+            "ppy.osu.Game.Rulesets.Taiko": {
+              "target": "Package",
+              "version": "[2023.1224.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
