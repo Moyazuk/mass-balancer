@@ -7,6 +7,7 @@ using osu.Game.Rulesets;
 using osu.Game.Rulesets.Osu;
 using osu.Game.Rulesets.Scoring;
 using PerformanceCalculator.Simulate;
+using osu.Game.Rulesets.Osu.Difficulty;
 
 namespace MassBalancer
 {
@@ -19,10 +20,14 @@ namespace MassBalancer
         public int combo { get; set; }
         public string[] mods { get; set; }
         public int targetPP { get; set; }
-        public double ppValue { get; set;}
+        public OsuPerformanceAttributes? ppAttribs { get; set;}
         public string name { get; set; }
+        public double ppValue 
+            => ppAttribs is null ? 0 : ppAttribs.Total;
         public double difference
             => ppValue - targetPP;
+        public double ratio
+            => ppValue / targetPP;
         public ScoreSimulatorInfo(int mapID, int countOk=0, int countMeh=0, int countMiss=0, int combo=0, string mods="", int targetPP=0, string name="")
         {
             this.mapID = mapID;
@@ -41,6 +46,9 @@ namespace MassBalancer
 
         public OsuSimulateCommand GetScoreSimulator()
             => new OsuSimulateCommand(mapID.ToString(), Combo: combo, Mods: mods, Misses: countMiss, Mehs: countMeh, Goods: countOk);
+
+        public OsuPerformanceAttributes SetAttribs()
+            => ppAttribs = GetScoreSimulator().CalculatePerformance();
 
     }
 }

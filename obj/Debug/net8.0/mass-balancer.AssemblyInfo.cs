@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mass-balancer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a65568ac44627b1564f506c2dd9cb6f16c5c14e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5e6abdf55f28873fc6f18ce004467f3707e9d72")]
 [assembly: System.Reflection.AssemblyProductAttribute("mass-balancer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mass-balancer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

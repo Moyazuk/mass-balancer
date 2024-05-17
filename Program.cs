@@ -9,6 +9,9 @@ using osu.Game.Online;
 using PerformanceCalculator.Simulate;
 using osu.Game.Rulesets;
 using osu.Game.Rulesets.Mods;
+using osu.Game.Rulesets.Osu.Difficulty;
+using osu.Game.Rulesets.Osu.Difficulty.Skills;
+using System.Reflection;
 
 namespace MassBalancer
 {
@@ -26,30 +29,52 @@ namespace MassBalancer
                 new ScoreSimulatorInfo(1811527, countOk: 62, countMeh: 2, countMiss: 2, combo: 4088, mods: "DT", targetPP: 1400, name: "mrekk Save me [Nightmare]"),
                 new ScoreSimulatorInfo(2069969, countOk: 37, combo: 1477, mods: "HDDTHR", targetPP: 1400, name:"Rat Race 3mod")
             };
-
-            
+            Constants constants = new Constants();
+            RunPlays(plays, false);
+            constants.performanceBaseMultiplier /= RatioMean(plays);
+            RunPlays(plays, true);
+        }
+        private static void RunPlays(List<ScoreSimulatorInfo> plays, bool showOutput=false)
+        {
             foreach (var play in plays)
             {
-                Console.WriteLine($"Calculating {play.name}");
-                var attribs = play.GetScoreSimulator().CalculatePerformance();
-                play.ppValue = attribs.Total;
+                if (showOutput) 
+                    Console.WriteLine($"Calculating {play.name}");
+                play.SetAttribs();
+                OsuPerformanceAttributes attribs = play.ppAttribs;
             }
-            Console.WriteLine("");
 
-            foreach (var play in plays.OrderBy(x => -Math.Abs(x.difference)))
+            if (showOutput)
             {
-                Console.WriteLine($"{play.name.PadLeft(plays.Max(p => p.name.Length))}: PP - {play.ppValue:F2}. Target - {play.targetPP:F2}. Diff - {play.difference:F2}");
+                Console.WriteLine("");
+                foreach (var play in plays.OrderBy(x => -Math.Abs(x.difference)))
+                {
+                    Console.WriteLine($"{play.name.PadLeft(plays.Max(p => p.name.Length))}: PP - {play.ppValue:F2}. Target - {play.targetPP:F2}. Diff - {play.difference:F2}");
+                }
             }
-
-            Console.WriteLine($"Std. Dev: {StdDev(plays):F2}");
-
         }
 
-        public static double StdDev(List<ScoreSimulatorInfo> plays)
+        public static double DifferenceDev(List<ScoreSimulatorInfo> plays)
         {
-            List<double> ppDiff = plays.Where(p => p.targetPP != 0).Select(p => p.difference).ToList();
+            IEnumerable<double> ppDiff = plays.Where(p => p.targetPP != 0).Select(p => p.difference);
             double mean = ppDiff.Average();
             return Math.Sqrt(ppDiff.Sum(x => Math.Pow(x - mean, 2)) / ppDiff.Count());
+        }
+        public static double DifferenceMean(List<ScoreSimulatorInfo> plays)
+        {
+            IEnumerable<double> ppDiff = plays.Where(p => p.targetPP != 0).Select(p => p.difference);
+            return ppDiff.Average();
+        }
+        public static double RatioDev(List<ScoreSimulatorInfo> plays)
+        {
+            IEnumerable<double> ppDiff = plays.Where(p => p.targetPP != 0).Select(p => p.ratio);
+            double mean = ppDiff.Average();
+            return Math.Sqrt(ppDiff.Sum(x => Math.Pow(x - mean, 2)) / ppDiff.Count());
+        }
+        public static double RatioMean(List<ScoreSimulatorInfo> plays)
+        {
+            IEnumerable<double> ppDiff = plays.Where(p => p.targetPP != 0).Select(p => p.ratio);
+            return ppDiff.Average();
         }
     }
 }

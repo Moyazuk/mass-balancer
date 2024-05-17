@@ -28,6 +28,7 @@ namespace PerformanceCalculator.Simulate
         public int Mehs { get; }
 
         public int Goods { get; }
+        private static int four = 4;
 
         public Ruleset Ruleset => new OsuRuleset();
 

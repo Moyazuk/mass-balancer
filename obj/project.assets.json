@@ -18,7 +18,7 @@
           }
         }
       },
-      "DiffPlex/1.7.1": {
+      "DiffPlex/1.7.2": {
         "type": "package",
         "compile": {
           "lib/net6.0/DiffPlex.dll": {
@@ -59,7 +59,7 @@
           "lib/net5.0/HidSharpCore.dll": {}
         }
       },
-      "HtmlAgilityPack/1.11.54": {
+      "HtmlAgilityPack/1.11.59": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/HtmlAgilityPack.dll": {
@@ -666,7 +666,7 @@
           }
         }
       },
-      "JetBrains.Annotations/2022.3.1": {
+      "JetBrains.Annotations/2023.3.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/JetBrains.Annotations.dll": {
@@ -727,10 +727,10 @@
           }
         }
       },
-      "MessagePack/2.5.129": {
+      "MessagePack/2.5.140": {
         "type": "package",
         "dependencies": {
-          "MessagePack.Annotations": "2.5.129",
+          "MessagePack.Annotations": "2.5.140",
           "Microsoft.NET.StringTools": "17.6.3",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
@@ -745,7 +745,7 @@
           }
         }
       },
-      "MessagePack.Annotations/2.5.129": {
+      "MessagePack.Annotations/2.5.140": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/MessagePack.Annotations.dll": {
@@ -758,10 +758,10 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Connections.Abstractions/7.0.12": {
+      "Microsoft.AspNetCore.Connections.Abstractions/7.0.15": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Features": "7.0.12",
+          "Microsoft.Extensions.Features": "7.0.15",
           "System.IO.Pipelines": "7.0.0"
         },
         "compile": {
@@ -775,10 +775,10 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Http.Connections.Client/7.0.12": {
+      "Microsoft.AspNetCore.Http.Connections.Client/7.0.15": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Http.Connections.Common": "7.0.12",
+          "Microsoft.AspNetCore.Http.Connections.Common": "7.0.15",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.1",
           "Microsoft.Extensions.Options": "7.0.1"
         },
@@ -793,10 +793,10 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Http.Connections.Common/7.0.12": {
+      "Microsoft.AspNetCore.Http.Connections.Common/7.0.15": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Connections.Abstractions": "7.0.12"
+          "Microsoft.AspNetCore.Connections.Abstractions": "7.0.15"
         },
         "compile": {
           "lib/net7.0/Microsoft.AspNetCore.Http.Connections.Common.dll": {
@@ -809,11 +809,11 @@
           }
         }
       },
-      "Microsoft.AspNetCore.SignalR.Client/7.0.12": {
+      "Microsoft.AspNetCore.SignalR.Client/7.0.15": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Http.Connections.Client": "7.0.12",
-          "Microsoft.AspNetCore.SignalR.Client.Core": "7.0.12"
+          "Microsoft.AspNetCore.Http.Connections.Client": "7.0.15",
+          "Microsoft.AspNetCore.SignalR.Client.Core": "7.0.15"
         },
         "compile": {
           "lib/net7.0/Microsoft.AspNetCore.SignalR.Client.dll": {
@@ -826,11 +826,11 @@
           }
         }
       },
-      "Microsoft.AspNetCore.SignalR.Client.Core/7.0.12": {
+      "Microsoft.AspNetCore.SignalR.Client.Core/7.0.15": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.SignalR.Common": "7.0.12",
-          "Microsoft.AspNetCore.SignalR.Protocols.Json": "7.0.12",
+          "Microsoft.AspNetCore.SignalR.Common": "7.0.15",
+          "Microsoft.AspNetCore.SignalR.Protocols.Json": "7.0.15",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.Extensions.Logging": "7.0.0",
           "System.Threading.Channels": "7.0.0"
@@ -846,10 +846,10 @@
           }
         }
       },
-      "Microsoft.AspNetCore.SignalR.Common/7.0.12": {
+      "Microsoft.AspNetCore.SignalR.Common/7.0.15": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Connections.Abstractions": "7.0.12",
+          "Microsoft.AspNetCore.Connections.Abstractions": "7.0.15",
           "Microsoft.Extensions.Options": "7.0.1"
         },
         "compile": {
@@ -863,10 +863,10 @@
           }
         }
       },
-      "Microsoft.AspNetCore.SignalR.Protocols.Json/7.0.12": {
+      "Microsoft.AspNetCore.SignalR.Protocols.Json/7.0.15": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.SignalR.Common": "7.0.12"
+          "Microsoft.AspNetCore.SignalR.Common": "7.0.15"
         },
         "compile": {
           "lib/net7.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll": {
@@ -879,11 +879,11 @@
           }
         }
       },
-      "Microsoft.AspNetCore.SignalR.Protocols.MessagePack/7.0.12": {
+      "Microsoft.AspNetCore.SignalR.Protocols.MessagePack/7.0.15": {
         "type": "package",
         "dependencies": {
           "MessagePack": "2.1.90",
-          "Microsoft.AspNetCore.SignalR.Common": "7.0.12"
+          "Microsoft.AspNetCore.SignalR.Common": "7.0.15"
         },
         "compile": {
           "lib/net7.0/Microsoft.AspNetCore.SignalR.Protocols.MessagePack.dll": {
@@ -896,10 +896,10 @@
           }
         }
       },
-      "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson/7.0.12": {
+      "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson/7.0.15": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.SignalR.Common": "7.0.12",
+          "Microsoft.AspNetCore.SignalR.Common": "7.0.15",
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
@@ -1061,7 +1061,7 @@
           "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll": {}
         }
       },
-      "Microsoft.Extensions.Features/7.0.12": {
+      "Microsoft.Extensions.Features/7.0.15": {
         "type": "package",
         "compile": {
           "lib/net7.0/Microsoft.Extensions.Features.dll": {
@@ -1174,7 +1174,7 @@
           }
         }
       },
-      "Microsoft.NETCore.Platforms/5.0.0": {
+      "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -1423,7 +1423,7 @@
           }
         }
       },
-      "NUnit/3.13.3": {
+      "NUnit/3.14.0": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.0"
@@ -1442,15 +1442,15 @@
           "build/_._": {}
         }
       },
-      "OpenTabletDriver/0.6.3": {
+      "OpenTabletDriver/0.6.4": {
         "type": "package",
         "dependencies": {
           "HidSharpCore": "1.2.1.1",
           "Microsoft.Extensions.DependencyInjection": "6.0.0-rc.1.21451.13",
           "Newtonsoft.Json": "13.0.1",
-          "OpenTabletDriver.Configurations": "0.6.3",
-          "OpenTabletDriver.Native": "0.6.3",
-          "OpenTabletDriver.Plugin": "0.6.3"
+          "OpenTabletDriver.Configurations": "0.6.4",
+          "OpenTabletDriver.Native": "0.6.4",
+          "OpenTabletDriver.Plugin": "0.6.4"
         },
         "compile": {
           "lib/net6.0/OpenTabletDriver.dll": {}
@@ -1459,11 +1459,11 @@
           "lib/net6.0/OpenTabletDriver.dll": {}
         }
       },
-      "OpenTabletDriver.Configurations/0.6.3": {
+      "OpenTabletDriver.Configurations/0.6.4": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
-          "OpenTabletDriver.Plugin": "0.6.3"
+          "OpenTabletDriver.Plugin": "0.6.4"
         },
         "compile": {
           "lib/net6.0/OpenTabletDriver.Configurations.dll": {}
@@ -1472,7 +1472,7 @@
           "lib/net6.0/OpenTabletDriver.Configurations.dll": {}
         }
       },
-      "OpenTabletDriver.Native/0.6.3": {
+      "OpenTabletDriver.Native/0.6.4": {
         "type": "package",
         "compile": {
           "lib/net6.0/OpenTabletDriver.Native.dll": {}
@@ -1481,8 +1481,11 @@
           "lib/net6.0/OpenTabletDriver.Native.dll": {}
         }
       },
-      "OpenTabletDriver.Plugin/0.6.3": {
+      "OpenTabletDriver.Plugin/0.6.4": {
         "type": "package",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
         "compile": {
           "lib/net6.0/OpenTabletDriver.Plugin.dll": {}
         },
@@ -1541,66 +1544,83 @@
           }
         }
       },
-      "ppy.osu.Framework/2023.1219.0": {
+      "ppy.ManagedBass.Wasapi/2022.1216.0": {
+        "type": "package",
+        "dependencies": {
+          "ppy.ManagedBass": "2022.1216.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/ppy.ManagedBass.Wasapi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/ppy.ManagedBass.Wasapi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ppy.osu.Framework/2024.509.0": {
         "type": "package",
         "dependencies": {
           "FFmpeg.AutoGen": "4.3.0.1",
-          "JetBrains.Annotations": "2022.3.1",
+          "JetBrains.Annotations": "2023.3.0",
           "Markdig": "0.23.0",
           "Microsoft.Diagnostics.Runtime": "2.0.161401",
           "Microsoft.Extensions.ObjectPool": "5.0.11",
           "NUnit": "3.13.3",
           "Newtonsoft.Json": "13.0.3",
           "NuGet.ProjectModel": "5.11.0",
-          "OpenTabletDriver": "0.6.3",
+          "OpenTabletDriver": "0.6.4",
           "SharpFNT": "2.0.0",
-          "SixLabors.ImageSharp": "2.1.0",
+          "SixLabors.ImageSharp": "3.1.4",
           "StbiSharp": "1.1.0",
           "System.Numerics.Tensors": "8.0.0",
           "managed-midi": "1.10.0",
           "ppy.ManagedBass": "2022.1216.0",
           "ppy.ManagedBass.Fx": "2022.1216.0",
           "ppy.ManagedBass.Mix": "2022.1216.0",
-          "ppy.SDL2-CS": "1.0.671-alpha",
-          "ppy.Veldrid": "4.9.3-g91ce5a6cda",
+          "ppy.ManagedBass.Wasapi": "2022.1216.0",
+          "ppy.SDL3-CS": "2024.418.1",
+          "ppy.Veldrid": "4.9.11-ged7d28974e",
           "ppy.Veldrid.SPIRV": "1.0.15-gca6cec7843",
-          "ppy.osu.Framework.NativeLibs": "2023.1205.0-nativelibs",
+          "ppy.osu.Framework.NativeLibs": "2024.326.0-nativelibs",
           "ppy.osu.Framework.SourceGeneration": "2023.720.0",
           "ppy.osuTK.NS20": "1.0.211"
         },
         "compile": {
-          "lib/net6.0/osu.Framework.dll": {
+          "lib/net8.0/osu.Framework.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/osu.Framework.dll": {
+          "lib/net8.0/osu.Framework.dll": {
             "related": ".xml"
           }
         }
       },
-      "ppy.osu.Framework.NativeLibs/2023.1205.0-nativelibs": {
+      "ppy.osu.Framework.NativeLibs/2024.326.0-nativelibs": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {}
+          "lib/net8.0/_._": {}
         },
         "runtime": {
-          "lib/net6.0/_._": {}
+          "lib/net8.0/_._": {}
         },
         "runtimeTargets": {
           "runtimes/android/native/_._": {
             "assetType": "native",
             "rid": "android"
           },
-          "runtimes/linux-x64/native/libavcodec.so": {
+          "runtimes/linux-x64/native/libavcodec.so.58": {
             "assetType": "native",
             "rid": "linux-x64"
           },
-          "runtimes/linux-x64/native/libavformat.so": {
+          "runtimes/linux-x64/native/libavformat.so.58": {
             "assetType": "native",
             "rid": "linux-x64"
           },
-          "runtimes/linux-x64/native/libavutil.so": {
+          "runtimes/linux-x64/native/libavutil.so.56": {
             "assetType": "native",
             "rid": "linux-x64"
           },
@@ -1616,7 +1636,7 @@
             "assetType": "native",
             "rid": "linux-x64"
           },
-          "runtimes/linux-x64/native/libswscale.so": {
+          "runtimes/linux-x64/native/libswscale.so.5": {
             "assetType": "native",
             "rid": "linux-x64"
           },
@@ -1712,6 +1732,10 @@
             "assetType": "native",
             "rid": "win-x64"
           },
+          "runtimes/win-x64/native/basswasapi.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
           "runtimes/win-x64/native/swscale-5.dll": {
             "assetType": "native",
             "rid": "win-x64"
@@ -1740,6 +1764,10 @@
             "assetType": "native",
             "rid": "win-x86"
           },
+          "runtimes/win-x86/native/basswasapi.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
           "runtimes/win-x86/native/swscale-5.dll": {
             "assetType": "native",
             "rid": "win-x86"
@@ -1749,46 +1777,7 @@
       "ppy.osu.Framework.SourceGeneration/2023.720.0": {
         "type": "package"
       },
-      "ppy.osu.Game/2023.1224.0": {
-        "type": "package",
-        "dependencies": {
-          "AutoMapper": "12.0.1",
-          "DiffPlex": "1.7.1",
-          "HtmlAgilityPack": "1.11.54",
-          "Humanizer": "2.14.1",
-          "MessagePack": "2.5.129",
-          "Microsoft.AspNetCore.SignalR.Client": "7.0.12",
-          "Microsoft.AspNetCore.SignalR.Protocols.MessagePack": "7.0.12",
-          "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson": "7.0.12",
-          "Microsoft.Data.Sqlite.Core": "7.0.12",
-          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
-          "Microsoft.Toolkit.HighPerformance": "7.1.2",
-          "NUnit": "3.13.3",
-          "Newtonsoft.Json": "13.0.3",
-          "Realm": "11.5.0",
-          "SQLitePCLRaw.bundle_e_sqlite3": "2.1.6",
-          "Sentry": "3.40.0",
-          "SharpCompress": "0.33.0",
-          "System.ComponentModel.Annotations": "5.0.0",
-          "System.IO.FileSystem.Primitives": "4.3.0",
-          "System.Runtime.Handles": "4.3.0",
-          "System.Runtime.InteropServices": "4.3.0",
-          "TagLibSharp": "2.3.0",
-          "ppy.osu.Framework": "2023.1219.0",
-          "ppy.osu.Game.Resources": "2023.1215.0"
-        },
-        "compile": {
-          "lib/net6.0/osu.Game.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/osu.Game.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "ppy.osu.Game.Resources/2023.1215.0": {
+      "ppy.osu.Game.Resources/2024.410.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/osu.Game.Resources.dll": {
@@ -1929,70 +1918,6 @@
           }
         }
       },
-      "ppy.osu.Game.Rulesets.Catch/2023.1224.0": {
-        "type": "package",
-        "dependencies": {
-          "ppy.osu.Game": "2023.1224.0"
-        },
-        "compile": {
-          "lib/net6.0/osu.Game.Rulesets.Catch.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/osu.Game.Rulesets.Catch.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "ppy.osu.Game.Rulesets.Mania/2023.1224.0": {
-        "type": "package",
-        "dependencies": {
-          "ppy.osu.Game": "2023.1224.0"
-        },
-        "compile": {
-          "lib/net6.0/osu.Game.Rulesets.Mania.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/osu.Game.Rulesets.Mania.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "ppy.osu.Game.Rulesets.Osu/2023.1224.0": {
-        "type": "package",
-        "dependencies": {
-          "ppy.osu.Game": "2023.1224.0"
-        },
-        "compile": {
-          "lib/net6.0/osu.Game.Rulesets.Osu.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/osu.Game.Rulesets.Osu.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "ppy.osu.Game.Rulesets.Taiko/2023.1224.0": {
-        "type": "package",
-        "dependencies": {
-          "ppy.osu.Game": "2023.1224.0"
-        },
-        "compile": {
-          "lib/net6.0/osu.Game.Rulesets.Taiko.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/osu.Game.Rulesets.Taiko.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "ppy.osuTK.NS20/1.0.211": {
         "type": "package",
         "compile": {
@@ -2002,81 +1927,81 @@
           "lib/netstandard2.0/osuTK.dll": {}
         }
       },
-      "ppy.SDL2-CS/1.0.671-alpha": {
+      "ppy.SDL3-CS/2024.418.1": {
         "type": "package",
+        "dependencies": {
+          "JetBrains.Annotations": "2023.3.0"
+        },
         "compile": {
-          "lib/net6.0/SDL2-CS.dll": {}
+          "lib/net8.0/SDL3-CS.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/SDL2-CS.dll": {}
-        },
-        "contentFiles": {
-          "contentFiles/any/any/_._": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": false
+          "lib/net8.0/SDL3-CS.dll": {
+            "related": ".xml"
           }
         },
         "runtimeTargets": {
-          "runtimes/ios/native/SDL2.xcframework/Info.plist": {
+          "runtimes/ios/native/SDL3.xcframework/Info.plist": {
             "assetType": "native",
             "rid": "ios"
           },
-          "runtimes/ios/native/SDL2.xcframework/ios-arm64/SDL2.framework/Info.plist": {
+          "runtimes/ios/native/SDL3.xcframework/ios-arm64/SDL3.framework/Info.plist": {
             "assetType": "native",
             "rid": "ios"
           },
-          "runtimes/ios/native/SDL2.xcframework/ios-arm64/SDL2.framework/SDL2": {
+          "runtimes/ios/native/SDL3.xcframework/ios-arm64/SDL3.framework/SDL3": {
             "assetType": "native",
             "rid": "ios"
           },
-          "runtimes/ios/native/SDL2.xcframework/ios-arm64_x86_64-simulator/SDL2.framework/Info.plist": {
+          "runtimes/ios/native/SDL3.xcframework/ios-arm64_x86_64-simulator/SDL3.framework/Info.plist": {
             "assetType": "native",
             "rid": "ios"
           },
-          "runtimes/ios/native/SDL2.xcframework/ios-arm64_x86_64-simulator/SDL2.framework/SDL2": {
+          "runtimes/ios/native/SDL3.xcframework/ios-arm64_x86_64-simulator/SDL3.framework/SDL3": {
             "assetType": "native",
             "rid": "ios"
           },
-          "runtimes/linux-x64/native/libSDL2.so": {
+          "runtimes/linux-x64/native/libSDL3.so": {
             "assetType": "native",
             "rid": "linux-x64"
           },
-          "runtimes/linux-x86/native/libSDL2.so": {
+          "runtimes/linux-x86/native/libSDL3.so": {
             "assetType": "native",
             "rid": "linux-x86"
           },
-          "runtimes/osx-arm64/native/libSDL2.dylib": {
+          "runtimes/osx-arm64/native/libSDL3.dylib": {
             "assetType": "native",
             "rid": "osx-arm64"
           },
-          "runtimes/osx-x64/native/libSDL2.dylib": {
+          "runtimes/osx-x64/native/libSDL3.dylib": {
             "assetType": "native",
             "rid": "osx-x64"
           },
-          "runtimes/win-arm64/native/SDL2.dll": {
+          "runtimes/win-arm64/native/SDL3.dll": {
             "assetType": "native",
             "rid": "win-arm64"
           },
-          "runtimes/win-x64/native/SDL2.dll": {
+          "runtimes/win-x64/native/SDL3.dll": {
             "assetType": "native",
             "rid": "win-x64"
           },
-          "runtimes/win-x86/native/SDL2.dll": {
+          "runtimes/win-x86/native/SDL3.dll": {
             "assetType": "native",
             "rid": "win-x86"
           }
         }
       },
-      "ppy.Veldrid/4.9.3-g91ce5a6cda": {
+      "ppy.Veldrid/4.9.11-ged7d28974e": {
         "type": "package",
         "dependencies": {
           "NativeLibraryLoader": "1.0.13",
-          "Vk": "1.0.25",
           "Vortice.D3DCompiler": "2.4.2",
           "Vortice.Direct3D11": "2.4.2",
-          "ppy.Veldrid.MetalBindings": "4.9.3-g91ce5a6cda",
-          "ppy.Veldrid.OpenGLBindings": "4.9.3-g91ce5a6cda"
+          "ppy.Veldrid.MetalBindings": "4.9.11-ged7d28974e",
+          "ppy.Veldrid.OpenGLBindings": "4.9.11-ged7d28974e",
+          "ppy.Vk": "1.0.26"
         },
         "compile": {
           "lib/net6.0/ppy.Veldrid.dll": {
@@ -2089,7 +2014,7 @@
           }
         }
       },
-      "ppy.Veldrid.MetalBindings/4.9.3-g91ce5a6cda": {
+      "ppy.Veldrid.MetalBindings/4.9.11-ged7d28974e": {
         "type": "package",
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -2105,7 +2030,7 @@
           }
         }
       },
-      "ppy.Veldrid.OpenGLBindings/4.9.3-g91ce5a6cda": {
+      "ppy.Veldrid.OpenGLBindings/4.9.11-ged7d28974e": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/ppy.Veldrid.OpenGLBindings.dll": {
@@ -2175,6 +2100,15 @@
             "assetType": "native",
             "rid": "win-x86"
           }
+        }
+      },
+      "ppy.Vk/1.0.26": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/vk.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/vk.dll": {}
         }
       },
       "Realm/11.5.0": {
@@ -2506,15 +2440,15 @@
           }
         }
       },
-      "Sentry/3.40.0": {
+      "Sentry/4.3.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Sentry.dll": {
+          "lib/net8.0/Sentry.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Sentry.dll": {
+          "lib/net8.0/Sentry.dll": {
             "related": ".xml"
           }
         },
@@ -2522,13 +2456,16 @@
           "buildTransitive/Sentry.targets": {}
         }
       },
-      "SharpCompress/0.33.0": {
+      "SharpCompress/0.36.0": {
         "type": "package",
+        "dependencies": {
+          "ZstdSharp.Port": "0.7.4"
+        },
         "compile": {
-          "lib/net7.0/SharpCompress.dll": {}
+          "lib/net8.0/SharpCompress.dll": {}
         },
         "runtime": {
-          "lib/net7.0/SharpCompress.dll": {}
+          "lib/net8.0/SharpCompress.dll": {}
         }
       },
       "SharpFNT/2.0.0": {
@@ -2580,28 +2517,27 @@
           "buildMultiTargeting/_._": {}
         }
       },
-      "SixLabors.ImageSharp/2.1.0": {
+      "SixLabors.ImageSharp/3.1.4": {
         "type": "package",
-        "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "5.0.0",
-          "System.Text.Encoding.CodePages": "5.0.0"
-        },
         "compile": {
-          "lib/netcoreapp3.1/SixLabors.ImageSharp.dll": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.1/SixLabors.ImageSharp.dll": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "build/_._": {}
         }
       },
-      "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
+      "SQLitePCLRaw.bundle_e_sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3": "2.1.6",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.1.6"
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.8"
         },
         "compile": {
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
@@ -2610,7 +2546,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.1.6": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -2622,7 +2558,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3/2.1.6": {
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.8": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -2661,6 +2597,10 @@
           "runtimes/linux-musl-arm64/native/libe_sqlite3.so": {
             "assetType": "native",
             "rid": "linux-musl-arm64"
+          },
+          "runtimes/linux-musl-s390x/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-musl-s390x"
           },
           "runtimes/linux-musl-x64/native/libe_sqlite3.so": {
             "assetType": "native",
@@ -2716,10 +2656,10 @@
           }
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.1.6": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.6"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -3905,28 +3845,6 @@
           }
         }
       },
-      "System.Text.Encoding.CodePages/5.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
-        }
-      },
       "System.Text.Encoding.Extensions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4024,15 +3942,6 @@
           "lib/netstandard2.0/TagLibSharp.dll": {
             "related": ".pdb"
           }
-        }
-      },
-      "Vk/1.0.25": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/vk.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/vk.dll": {}
         }
       },
       "Vortice.D3DCompiler/2.4.2": {
@@ -4146,6 +4055,103 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "ZstdSharp.Port/0.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/ZstdSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/ZstdSharp.dll": {}
+        }
+      },
+      "ppy.osu.Game/0.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "DiffPlex": "1.7.2",
+          "HtmlAgilityPack": "1.11.59",
+          "Humanizer": "2.14.1",
+          "MessagePack": "2.5.140",
+          "Microsoft.AspNetCore.SignalR.Client": "7.0.15",
+          "Microsoft.AspNetCore.SignalR.Protocols.MessagePack": "7.0.15",
+          "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson": "7.0.15",
+          "Microsoft.Data.Sqlite.Core": "7.0.12",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Toolkit.HighPerformance": "7.1.2",
+          "NUnit": "3.14.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Realm": "11.5.0",
+          "SQLitePCLRaw.bundle_e_sqlite3": "2.1.8",
+          "Sentry": "4.3.0",
+          "SharpCompress": "0.36.0",
+          "System.ComponentModel.Annotations": "5.0.0",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "TagLibSharp": "2.3.0",
+          "ppy.osu.Framework": "2024.509.0",
+          "ppy.osu.Game.Resources": "2024.410.0"
+        },
+        "compile": {
+          "bin/placeholder/ppy.osu.Game.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ppy.osu.Game.dll": {}
+        }
+      },
+      "ppy.osu.Game.Rulesets.Catch/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ppy.osu.Game": "0.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ppy.osu.Game.Rulesets.Catch.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ppy.osu.Game.Rulesets.Catch.dll": {}
+        }
+      },
+      "ppy.osu.Game.Rulesets.Mania/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ppy.osu.Game": "0.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ppy.osu.Game.Rulesets.Mania.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ppy.osu.Game.Rulesets.Mania.dll": {}
+        }
+      },
+      "ppy.osu.Game.Rulesets.Osu/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ppy.osu.Game": "0.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ppy.osu.Game.Rulesets.Osu.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ppy.osu.Game.Rulesets.Osu.dll": {}
+        }
+      },
+      "ppy.osu.Game.Rulesets.Taiko/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ppy.osu.Game": "0.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ppy.osu.Game.Rulesets.Taiko.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ppy.osu.Game.Rulesets.Taiko.dll": {}
+        }
       }
     }
   },
@@ -4165,15 +4171,15 @@
         "lib/netstandard2.1/AutoMapper.xml"
       ]
     },
-    "DiffPlex/1.7.1": {
-      "sha512": "a0fSO2p8ykrcfzgG0sjpZAMZPthXXz4l6UIVuM9uyIYIh5yga4sq3aydSGt6n+MkdSBKvMurjjaKnxIqZtfG1g==",
+    "DiffPlex/1.7.2": {
+      "sha512": "qJEjdxEDBWSFZGB8paBB9HDeJXHGlHlOXeGX3kbTuXWuOsgv2iSAEOOzo5V1/B39Vcxr9IVVrNKewRcX+rsn4g==",
       "type": "package",
-      "path": "diffplex/1.7.1",
+      "path": "diffplex/1.7.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "diffplex.1.7.1.nupkg.sha512",
+        "diffplex.1.7.2.nupkg.sha512",
         "diffplex.nuspec",
         "diffplex_icon.png",
         "lib/net35/DiffPlex.dll",
@@ -4255,14 +4261,14 @@
         "lib/net5.0/HidSharpCore.dll"
       ]
     },
-    "HtmlAgilityPack/1.11.54": {
-      "sha512": "bgB79N4urc4D7hrD4R+Qk6CjPiYOfs6vfXNsmw3nCcfQEQvBQGjfAcl5k/tB1ZP1hA0d7xXs0jK8xAXV36IVUg==",
+    "HtmlAgilityPack/1.11.59": {
+      "sha512": "0tMaGzTJ5uFFMCYvprZ4hRYg6Dm5E+/WeMFJiD5K83Fe/Y6kyLaRKcfrfUwfb1j428XzB4/2RR7sdxoQX5eaEA==",
       "type": "package",
-      "path": "htmlagilitypack/1.11.54",
+      "path": "htmlagilitypack/1.11.59",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "htmlagilitypack.1.11.54.nupkg.sha512",
+        "htmlagilitypack.1.11.59.nupkg.sha512",
         "htmlagilitypack.nuspec",
         "lib/Net35/HtmlAgilityPack.dll",
         "lib/Net35/HtmlAgilityPack.pdb",
@@ -5049,15 +5055,15 @@
         "logo.png"
       ]
     },
-    "JetBrains.Annotations/2022.3.1": {
-      "sha512": "11nsS3+lFICGkztVs9PP2NRItxf9fF+qD6xEW/T0YGto52zj07wseUeBdMAU1ah9HNVTDZyRC1u4NWdtJScwhw==",
+    "JetBrains.Annotations/2023.3.0": {
+      "sha512": "PHfnvdBUdGaTVG9bR/GEfxgTwWM0Z97Y6X3710wiljELBISipSfF5okn/vz+C2gfO+ihoEyVPjaJwn8ZalVukA==",
       "type": "package",
-      "path": "jetbrains.annotations/2022.3.1",
+      "path": "jetbrains.annotations/2023.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
-        "jetbrains.annotations.2022.3.1.nupkg.sha512",
+        "jetbrains.annotations.2023.3.0.nupkg.sha512",
         "jetbrains.annotations.nuspec",
         "lib/net20/JetBrains.Annotations.dll",
         "lib/net20/JetBrains.Annotations.xml",
@@ -5147,10 +5153,10 @@
         "mcmaster.extensions.commandlineutils.nuspec"
       ]
     },
-    "MessagePack/2.5.129": {
-      "sha512": "1jBW0Q3qvv+PJBwer8lQ2l26/fKptJIqFgVdyKfn4zW+LSYE8xEcvd4svfh0erI5f4d+rQRIAN229I2ARI/A5w==",
+    "MessagePack/2.5.140": {
+      "sha512": "nkIsgy8BkIfv40bSz9XZb4q//scI1PF3AYeB5X66nSlIhBIqbdpLz8Qk3gHvnjV3RZglQLO/ityK3eNfLii2NA==",
       "type": "package",
-      "path": "messagepack/2.5.129",
+      "path": "messagepack/2.5.140",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5158,27 +5164,27 @@
         "lib/net6.0/MessagePack.xml",
         "lib/netstandard2.0/MessagePack.dll",
         "lib/netstandard2.0/MessagePack.xml",
-        "messagepack.2.5.129.nupkg.sha512",
+        "messagepack.2.5.140.nupkg.sha512",
         "messagepack.nuspec"
       ]
     },
-    "MessagePack.Annotations/2.5.129": {
-      "sha512": "wNJB3EaJKjq+5pti+0T8b444fEb2PRw3hFefp9+of/BvDdTWO0iIUWfYNZbKx5aAIrpFzhLEfMAEJnGWWq3OFQ==",
+    "MessagePack.Annotations/2.5.140": {
+      "sha512": "JE3vwluOrsJ4t3hnfXzIxJUh6lhx6M/KR8Sark/HOUw1DJ5UKu5JsAnnuaQngg6poFkRx1lzHSLTkxHNJO7+uQ==",
       "type": "package",
-      "path": "messagepack.annotations/2.5.129",
+      "path": "messagepack.annotations/2.5.140",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/MessagePack.Annotations.dll",
         "lib/netstandard2.0/MessagePack.Annotations.xml",
-        "messagepack.annotations.2.5.129.nupkg.sha512",
+        "messagepack.annotations.2.5.140.nupkg.sha512",
         "messagepack.annotations.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Connections.Abstractions/7.0.12": {
-      "sha512": "Oz9LgFq7hoyDP/FGkTTYGq61iKWUnt7z6zKkORzV9Yr0YbsUSTv1/pB5Rnr1xxrd1XrrIuBY7ZXvXVkKTYYMIQ==",
+    "Microsoft.AspNetCore.Connections.Abstractions/7.0.15": {
+      "sha512": "uBX5A/RXmCkQQqSEYZw5zY5L+Vt5WWBtxMc5FzTzgH/Yb4nhThA7BuhpAiGUHsmkpAnim04CjagoGJfBWHApLQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.connections.abstractions/7.0.12",
+      "path": "microsoft.aspnetcore.connections.abstractions/7.0.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5192,14 +5198,14 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.xml",
         "lib/netstandard2.1/Microsoft.AspNetCore.Connections.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.AspNetCore.Connections.Abstractions.xml",
-        "microsoft.aspnetcore.connections.abstractions.7.0.12.nupkg.sha512",
+        "microsoft.aspnetcore.connections.abstractions.7.0.15.nupkg.sha512",
         "microsoft.aspnetcore.connections.abstractions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Http.Connections.Client/7.0.12": {
-      "sha512": "8TIpAm9k/H/WvUvkepwM3CxnKmJrurtXY0OxgeEKe1PJJprsvempnzwmsebi/dRx6LdvH25b6/Up99zbIxO0ew==",
+    "Microsoft.AspNetCore.Http.Connections.Client/7.0.15": {
+      "sha512": "N/FiqHpVfaSnxJI/zsgi06O0+LW9G5eG0X7L4cZPc7jDzaTjB8OeC/oMa+vlj2a3qzt6dQi1vSyzGgqs+YXtwg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.http.connections.client/7.0.12",
+      "path": "microsoft.aspnetcore.http.connections.client/7.0.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5213,14 +5219,14 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Client.xml",
         "lib/netstandard2.1/Microsoft.AspNetCore.Http.Connections.Client.dll",
         "lib/netstandard2.1/Microsoft.AspNetCore.Http.Connections.Client.xml",
-        "microsoft.aspnetcore.http.connections.client.7.0.12.nupkg.sha512",
+        "microsoft.aspnetcore.http.connections.client.7.0.15.nupkg.sha512",
         "microsoft.aspnetcore.http.connections.client.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Http.Connections.Common/7.0.12": {
-      "sha512": "c5PhGoeYDWijmk9cuGQn4x3kANfS7pdjUIp1tnO9CR5zlzDpQOqVBj5uTrtmPbSgTS/6Oy48LHd5Y+2it2XlLQ==",
+    "Microsoft.AspNetCore.Http.Connections.Common/7.0.15": {
+      "sha512": "0I0zoaLoQ8i64g+c9DHwHlTGPyaD8yNc9biyIEedFukpc80bCSxOCCfCwn64eGl1o0az+glZqYIxzZidDY780A==",
       "type": "package",
-      "path": "microsoft.aspnetcore.http.connections.common/7.0.12",
+      "path": "microsoft.aspnetcore.http.connections.common/7.0.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5232,14 +5238,14 @@
         "lib/net7.0/Microsoft.AspNetCore.Http.Connections.Common.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.xml",
-        "microsoft.aspnetcore.http.connections.common.7.0.12.nupkg.sha512",
+        "microsoft.aspnetcore.http.connections.common.7.0.15.nupkg.sha512",
         "microsoft.aspnetcore.http.connections.common.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.SignalR.Client/7.0.12": {
-      "sha512": "SsRdpK7S2xY3+2FAIXkUnGI2UFbWwCTyOgszfVygW7u6SovoVXtwvbJxHV+8LulBLoXec0j5mTvRnWJYhaNuWA==",
+    "Microsoft.AspNetCore.SignalR.Client/7.0.15": {
+      "sha512": "InY7boiuoL/WbCLIqULQCjB4IhshAbITfC51pWj7LJb94xi8WlQcyTK1zvWNJBva4D/Q00rh5EpzmniUTcPA0Q==",
       "type": "package",
-      "path": "microsoft.aspnetcore.signalr.client/7.0.12",
+      "path": "microsoft.aspnetcore.signalr.client/7.0.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5251,14 +5257,14 @@
         "lib/net7.0/Microsoft.AspNetCore.SignalR.Client.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.xml",
-        "microsoft.aspnetcore.signalr.client.7.0.12.nupkg.sha512",
+        "microsoft.aspnetcore.signalr.client.7.0.15.nupkg.sha512",
         "microsoft.aspnetcore.signalr.client.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.SignalR.Client.Core/7.0.12": {
-      "sha512": "lo6oipQVM+iXszhW0gtU1m+4F6kbyIpTEJj5QxTTtakcXes/2VDZEa5GJx/dV225c99pmb9CVmFGOBDndsXnsA==",
+    "Microsoft.AspNetCore.SignalR.Client.Core/7.0.15": {
+      "sha512": "IQjfa0/g/YEOfrgrlQzC/Zkl5OGrUDaUVK+QkEZaTIFSASyA3jHa8kM8DI/ZEamPKOsdfj+rXDweoFcTkE4lkQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.signalr.client.core/7.0.12",
+      "path": "microsoft.aspnetcore.signalr.client.core/7.0.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5272,14 +5278,14 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.Core.xml",
         "lib/netstandard2.1/Microsoft.AspNetCore.SignalR.Client.Core.dll",
         "lib/netstandard2.1/Microsoft.AspNetCore.SignalR.Client.Core.xml",
-        "microsoft.aspnetcore.signalr.client.core.7.0.12.nupkg.sha512",
+        "microsoft.aspnetcore.signalr.client.core.7.0.15.nupkg.sha512",
         "microsoft.aspnetcore.signalr.client.core.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.SignalR.Common/7.0.12": {
-      "sha512": "m/6eETSvMAmR9d5HeggMxYjVeLa+cJWzRTwhXl1milrDFJctLKj3N+cz0yLV/guU3NiAhrC9Tr08G4S6GtTRvg==",
+    "Microsoft.AspNetCore.SignalR.Common/7.0.15": {
+      "sha512": "9BQCed14pyFaB+a8ysAymrpuQEp0YqqTmyXuFkWp//NAaTisScwGJtfBIVWhNWqT2JzHV5p3pHQRlTM0lRvmyw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.signalr.common/7.0.12",
+      "path": "microsoft.aspnetcore.signalr.common/7.0.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5291,14 +5297,14 @@
         "lib/net7.0/Microsoft.AspNetCore.SignalR.Common.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Common.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Common.xml",
-        "microsoft.aspnetcore.signalr.common.7.0.12.nupkg.sha512",
+        "microsoft.aspnetcore.signalr.common.7.0.15.nupkg.sha512",
         "microsoft.aspnetcore.signalr.common.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.SignalR.Protocols.Json/7.0.12": {
-      "sha512": "9yaiCLhsQ5O53rQTBGNdxxTzfhOyMYSWCn0X9zg5Em8+6jgf9Cjxm0F1FFoQkquz1s+cEgTohb96ehgr8r+oUw==",
+    "Microsoft.AspNetCore.SignalR.Protocols.Json/7.0.15": {
+      "sha512": "VhotldPNMOyWl0O7oBxx//BkaE39UtXAET27uS0R33Y+tYtA3PtpcMXWgwTy8PzM3Y0/P0o9NBSU7iQD1FARgQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.signalr.protocols.json/7.0.12",
+      "path": "microsoft.aspnetcore.signalr.protocols.json/7.0.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5310,14 +5316,14 @@
         "lib/net7.0/Microsoft.AspNetCore.SignalR.Protocols.Json.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.xml",
-        "microsoft.aspnetcore.signalr.protocols.json.7.0.12.nupkg.sha512",
+        "microsoft.aspnetcore.signalr.protocols.json.7.0.15.nupkg.sha512",
         "microsoft.aspnetcore.signalr.protocols.json.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.SignalR.Protocols.MessagePack/7.0.12": {
-      "sha512": "AHMCQX80OeTkjpcTZA74rJeZ0ol2bdtjBRT2pzwb8cp31K5/qWC92OxFTMHjJP88kIys+//LCm8IJHmdyOVUTA==",
+    "Microsoft.AspNetCore.SignalR.Protocols.MessagePack/7.0.15": {
+      "sha512": "Qv+zw7BA5nFsw0RQdxap5KUfdXdfT7n6ycRKemeLi0gtYbOzTYrcCcRpcDtWHF85UWKSZDdK38dAQIArDZmB4Q==",
       "type": "package",
-      "path": "microsoft.aspnetcore.signalr.protocols.messagepack/7.0.12",
+      "path": "microsoft.aspnetcore.signalr.protocols.messagepack/7.0.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5329,14 +5335,14 @@
         "lib/net7.0/Microsoft.AspNetCore.SignalR.Protocols.MessagePack.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.MessagePack.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.MessagePack.xml",
-        "microsoft.aspnetcore.signalr.protocols.messagepack.7.0.12.nupkg.sha512",
+        "microsoft.aspnetcore.signalr.protocols.messagepack.7.0.15.nupkg.sha512",
         "microsoft.aspnetcore.signalr.protocols.messagepack.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson/7.0.12": {
-      "sha512": "/LX2Tdd73qRxxrI8/c/fCRq7nyHydJR+QQ1n5zI8vohhWuuk2ERX03OhzdoovMO3CgIlxnpBe8ZLXO4yfc45fg==",
+    "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson/7.0.15": {
+      "sha512": "366k53FwHDzdOt5UJD9gPQTIuh4JK2CpVVgoM+UhQTl2Mg+jfq8kgkgj+i829qvxagStMMnUpcljk2SthxKQHg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.signalr.protocols.newtonsoftjson/7.0.12",
+      "path": "microsoft.aspnetcore.signalr.protocols.newtonsoftjson/7.0.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5348,7 +5354,7 @@
         "lib/net7.0/Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson.xml",
-        "microsoft.aspnetcore.signalr.protocols.newtonsoftjson.7.0.12.nupkg.sha512",
+        "microsoft.aspnetcore.signalr.protocols.newtonsoftjson.7.0.15.nupkg.sha512",
         "microsoft.aspnetcore.signalr.protocols.newtonsoftjson.nuspec"
       ]
     },
@@ -5593,10 +5599,10 @@
         "microsoft.extensions.dependencymodel.nuspec"
       ]
     },
-    "Microsoft.Extensions.Features/7.0.12": {
-      "sha512": "OHfB4J13wlIsEkWRdawS7DVAUBoBfSqdmq9gLRUy1kH0+IsrpWzLJkMHj4+LdzywpJ2fT8TJ5ukjXGkZynVNmQ==",
+    "Microsoft.Extensions.Features/7.0.15": {
+      "sha512": "yumrDkzMWca8vDKjv4d5E+emRRooxsQ+17r84/n/4yuwwdHu4a9ne3U6uef/06aOoyrRnnNVopMiBwuWlpaRoA==",
       "type": "package",
-      "path": "microsoft.extensions.features/7.0.12",
+      "path": "microsoft.extensions.features/7.0.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5608,7 +5614,7 @@
         "lib/net7.0/Microsoft.Extensions.Features.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Features.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Features.xml",
-        "microsoft.extensions.features.7.0.12.nupkg.sha512",
+        "microsoft.extensions.features.7.0.15.nupkg.sha512",
         "microsoft.extensions.features.nuspec"
       ]
     },
@@ -5815,22 +5821,19 @@
         "ref/netstandard2.0/Microsoft.NET.StringTools.xml"
       ]
     },
-    "Microsoft.NETCore.Platforms/5.0.0": {
-      "sha512": "VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
-      "path": "microsoft.netcore.platforms/5.0.0",
+      "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+        "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
         "microsoft.netcore.platforms.nuspec",
-        "runtime.json",
-        "useSharedDesignerContext.txt",
-        "version.txt"
+        "runtime.json"
       ]
     },
     "Microsoft.NETCore.Targets/1.1.0": {
@@ -6270,16 +6273,17 @@
         "nuget.versioning.nuspec"
       ]
     },
-    "NUnit/3.13.3": {
-      "sha512": "KNPDpls6EfHwC3+nnA67fh5wpxeLb3VLFAfLxrug6JMYDLHH6InaQIWR7Sc3y75d/9IKzMksH/gi08W7XWbmnQ==",
+    "NUnit/3.14.0": {
+      "sha512": "R7iPwD7kbOaP3o2zldWJbWeMQAvDKD0uld27QvA3PAALl1unl7x0v2J7eGiJOYjimV/BuGT4VJmr45RjS7z4LA==",
       "type": "package",
-      "path": "nunit/3.13.3",
+      "path": "nunit/3.14.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CHANGES.md",
         "LICENSE.txt",
         "NOTICES.txt",
+        "README.md",
         "build/NUnit.props",
         "icon.png",
         "lib/net35/nunit.framework.dll",
@@ -6290,55 +6294,55 @@
         "lib/net45/nunit.framework.xml",
         "lib/netstandard2.0/nunit.framework.dll",
         "lib/netstandard2.0/nunit.framework.xml",
-        "nunit.3.13.3.nupkg.sha512",
+        "nunit.3.14.0.nupkg.sha512",
         "nunit.nuspec"
       ]
     },
-    "OpenTabletDriver/0.6.3": {
-      "sha512": "+0tdVHOgNU8Bl/EfjkUVND1WD/ZCO/Bnf/Nv9Hk7goGqkaoyM2CtfOGG22PUg/LOcgDEUL7XkWokuSvd72l/tA==",
+    "OpenTabletDriver/0.6.4": {
+      "sha512": "L5Ml2ohwKTukTRCDoOWfifHnD2dKhuBtoZiscChc2GwAV16LQ6z197NpZRF3xKK+IrnL4CH/d6cfhV9eFURN2g==",
       "type": "package",
-      "path": "opentabletdriver/0.6.3",
+      "path": "opentabletdriver/0.6.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net6.0/OpenTabletDriver.dll",
-        "opentabletdriver.0.6.3.nupkg.sha512",
+        "opentabletdriver.0.6.4.nupkg.sha512",
         "opentabletdriver.nuspec"
       ]
     },
-    "OpenTabletDriver.Configurations/0.6.3": {
-      "sha512": "rg38eoiZclT8IpKfg3ttJrbgfH9gLmmzE73+LYaPsByJqrRsX3VgNhN3hsSOyBmZF4s8n5hkojJryASSb1wBRA==",
+    "OpenTabletDriver.Configurations/0.6.4": {
+      "sha512": "zl1sGJbrMEQffl/cHnNBug+xv/TmbqypkViZsWzOzMkdHgorwBGyEQmFHJfAMrJbR2mqWi9u3maff1TLcVmjAA==",
       "type": "package",
-      "path": "opentabletdriver.configurations/0.6.3",
+      "path": "opentabletdriver.configurations/0.6.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net6.0/OpenTabletDriver.Configurations.dll",
-        "opentabletdriver.configurations.0.6.3.nupkg.sha512",
+        "opentabletdriver.configurations.0.6.4.nupkg.sha512",
         "opentabletdriver.configurations.nuspec"
       ]
     },
-    "OpenTabletDriver.Native/0.6.3": {
-      "sha512": "U57uhfTG1+KBpUtm2cmcdqxAoaxddr3oXZmAk8Xp4+AkA9h3Fz9aiC8neHrXKUeXMNgtvCC37fECCOlMZ6r4ig==",
+    "OpenTabletDriver.Native/0.6.4": {
+      "sha512": "TZHMGg4c88cLPG0GYAfBrzzVgZND3gWXE1wG1cn0rAajW2e74Zf7LuSqTPiaPztAU5xvbaieIomSpvafyaVe3Q==",
       "type": "package",
-      "path": "opentabletdriver.native/0.6.3",
+      "path": "opentabletdriver.native/0.6.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net6.0/OpenTabletDriver.Native.dll",
-        "opentabletdriver.native.0.6.3.nupkg.sha512",
+        "opentabletdriver.native.0.6.4.nupkg.sha512",
         "opentabletdriver.native.nuspec"
       ]
     },
-    "OpenTabletDriver.Plugin/0.6.3": {
-      "sha512": "6CUMn3hr2H+ZVcsJUwgyr3JLA55rxKDfHsc2lZBSc4AwbXdrKmbGiaLtk9/K6WRVmS+p4dMQHVDOm9794iFdtQ==",
+    "OpenTabletDriver.Plugin/0.6.4": {
+      "sha512": "xcPlu1OHzMKRH+I6vWUxMpQ3iGqSxDjMRbmIzEEelpHM8ncbsiRUOQBZuomIlK6oQcOrPpt7zx41ovhgJRX2UQ==",
       "type": "package",
-      "path": "opentabletdriver.plugin/0.6.3",
+      "path": "opentabletdriver.plugin/0.6.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net6.0/OpenTabletDriver.Plugin.dll",
-        "opentabletdriver.plugin.0.6.3.nupkg.sha512",
+        "opentabletdriver.plugin.0.6.4.nupkg.sha512",
         "opentabletdriver.plugin.nuspec"
       ]
     },
@@ -6408,39 +6412,54 @@
         "ppy.managedbass.mix.nuspec"
       ]
     },
-    "ppy.osu.Framework/2023.1219.0": {
-      "sha512": "wAkBZvE3S7ZbVP91dLsbp3yB686l9q3K0HVwIE/6WrccobyAxr0dqIviAZyVSl7QpuzKNNIQGdy1Ho7Hc21k0A==",
+    "ppy.ManagedBass.Wasapi/2022.1216.0": {
+      "sha512": "xL8KjGdgQzSDjdwvKzRslZ2ejTzswJZPrkmgYAf8gGtCd2YyUu1xxGzu5fvSfHFqOjGeJiN2dEg8BfxpoTITZw==",
       "type": "package",
-      "path": "ppy.osu.framework/2023.1219.0",
+      "path": "ppy.managedbass.wasapi/2022.1216.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "lib/netstandard2.1/ppy.ManagedBass.Wasapi.dll",
+        "lib/netstandard2.1/ppy.ManagedBass.Wasapi.xml",
+        "ppy.managedbass.wasapi.2022.1216.0.nupkg.sha512",
+        "ppy.managedbass.wasapi.nuspec"
+      ]
+    },
+    "ppy.osu.Framework/2024.509.0": {
+      "sha512": "s1knNI6wpTaED2sVTESzPh/HdXKSAkGJqdW3p7hfM2uoW+aHJnIUmd+Tpo0eBgXEi3nIQOWhARZkwwJm+k9q3A==",
+      "type": "package",
+      "path": "ppy.osu.framework/2024.509.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
-        "lib/net6.0/osu.Framework.dll",
-        "lib/net6.0/osu.Framework.xml",
-        "ppy.osu.framework.2023.1219.0.nupkg.sha512",
+        "lib/net8.0/osu.Framework.dll",
+        "lib/net8.0/osu.Framework.xml",
+        "ppy.osu.framework.2024.509.0.nupkg.sha512",
         "ppy.osu.framework.nuspec"
       ]
     },
-    "ppy.osu.Framework.NativeLibs/2023.1205.0-nativelibs": {
-      "sha512": "ry3TPDMPno2ixZpVqVuYjsBcHdQgmjm8kySFYYwq9K9DuCC0fi6wTM2OQaJpGVf0VV+2X00/zhldeh9evKR8ZQ==",
+    "ppy.osu.Framework.NativeLibs/2024.326.0-nativelibs": {
+      "sha512": "h+SdpcOkEMSaMqLughyN5r/1DFJhKvUPqBADb6aMpLVUuC54vg1j+w7ah2hO4LGFH1ntugMlcvipG9tjmDRHVQ==",
       "type": "package",
-      "path": "ppy.osu.framework.nativelibs/2023.1205.0-nativelibs",
+      "path": "ppy.osu.framework.nativelibs/2024.326.0-nativelibs",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
-        "lib/net6.0/_._",
-        "ppy.osu.framework.nativelibs.2023.1205.0-nativelibs.nupkg.sha512",
+        "lib/net8.0/_._",
+        "ppy.osu.framework.nativelibs.2024.326.0-nativelibs.nupkg.sha512",
         "ppy.osu.framework.nativelibs.nuspec",
         "runtimes/android/native/_._",
-        "runtimes/linux-x64/native/libavcodec.so",
-        "runtimes/linux-x64/native/libavformat.so",
-        "runtimes/linux-x64/native/libavutil.so",
+        "runtimes/linux-x64/native/libavcodec.so.58",
+        "runtimes/linux-x64/native/libavformat.so.58",
+        "runtimes/linux-x64/native/libavutil.so.56",
         "runtimes/linux-x64/native/libbass.so",
         "runtimes/linux-x64/native/libbass_fx.so",
         "runtimes/linux-x64/native/libbassmix.so",
-        "runtimes/linux-x64/native/libswscale.so",
+        "runtimes/linux-x64/native/libswscale.so.5",
         "runtimes/linux-x86/native/libbass.so",
         "runtimes/linux-x86/native/libbass_fx.so",
         "runtimes/linux-x86/native/libbassmix.so",
@@ -6464,6 +6483,7 @@
         "runtimes/win-x64/native/bass.dll",
         "runtimes/win-x64/native/bass_fx.dll",
         "runtimes/win-x64/native/bassmix.dll",
+        "runtimes/win-x64/native/basswasapi.dll",
         "runtimes/win-x64/native/swscale-5.dll",
         "runtimes/win-x86/native/avcodec-58.dll",
         "runtimes/win-x86/native/avformat-58.dll",
@@ -6471,6 +6491,7 @@
         "runtimes/win-x86/native/bass.dll",
         "runtimes/win-x86/native/bass_fx.dll",
         "runtimes/win-x86/native/bassmix.dll",
+        "runtimes/win-x86/native/basswasapi.dll",
         "runtimes/win-x86/native/swscale-5.dll"
       ]
     },
@@ -6487,24 +6508,10 @@
         "ppy.osu.framework.sourcegeneration.nuspec"
       ]
     },
-    "ppy.osu.Game/2023.1224.0": {
-      "sha512": "EMdDDGsnrn3sw6tHY32oYpr+EBvu3fAo+JqTnbP9BiURpJW0oghS9LaoeinVV53uzzCx9KQBMv9TScmJwIocuA==",
+    "ppy.osu.Game.Resources/2024.410.0": {
+      "sha512": "Rpj94vlhrsi27RIhTco76G5G/mcGzFbMTWBtztesRrd1E8iEcFtyh3oIa0gjl0Vlwm7fX+Z4UYrDhK0SygnPPQ==",
       "type": "package",
-      "path": "ppy.osu.game/2023.1224.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/net6.0/osu.Game.dll",
-        "lib/net6.0/osu.Game.xml",
-        "ppy.osu.game.2023.1224.0.nupkg.sha512",
-        "ppy.osu.game.nuspec"
-      ]
-    },
-    "ppy.osu.Game.Resources/2023.1215.0": {
-      "sha512": "HyUdAeDpA1QvshEK869JzmVqxkKUMo4uecz5RCz0Q/X98gZqgm0RFePEhNob5k+MTEJJZ0NdRo/PtRN2i6NPxw==",
-      "type": "package",
-      "path": "ppy.osu.game.resources/2023.1215.0",
+      "path": "ppy.osu.game.resources/2024.410.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6553,60 +6560,8 @@
         "lib/netstandard2.1/vi/osu.Game.Resources.resources.dll",
         "lib/netstandard2.1/zh-Hant/osu.Game.Resources.resources.dll",
         "lib/netstandard2.1/zh/osu.Game.Resources.resources.dll",
-        "ppy.osu.game.resources.2023.1215.0.nupkg.sha512",
+        "ppy.osu.game.resources.2024.410.0.nupkg.sha512",
         "ppy.osu.game.resources.nuspec"
-      ]
-    },
-    "ppy.osu.Game.Rulesets.Catch/2023.1224.0": {
-      "sha512": "Cji4XlpJ1nemyrIK02TcjO07eLsvNevyx1bMdKjF1mBX4Y3RoN7H6m0V8Mpso28cZ5VZF0mO+OhG0R0hDDc7OA==",
-      "type": "package",
-      "path": "ppy.osu.game.rulesets.catch/2023.1224.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net6.0/osu.Game.Rulesets.Catch.dll",
-        "lib/net6.0/osu.Game.Rulesets.Catch.xml",
-        "ppy.osu.game.rulesets.catch.2023.1224.0.nupkg.sha512",
-        "ppy.osu.game.rulesets.catch.nuspec"
-      ]
-    },
-    "ppy.osu.Game.Rulesets.Mania/2023.1224.0": {
-      "sha512": "RR3Th9NP3SXaissYkIqcliAFKTauVdti3YBSEyInCHNB0yyIInm3stgt9/LF4Z+XiEjfImG52K/CzSGX5ZOwPg==",
-      "type": "package",
-      "path": "ppy.osu.game.rulesets.mania/2023.1224.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net6.0/osu.Game.Rulesets.Mania.dll",
-        "lib/net6.0/osu.Game.Rulesets.Mania.xml",
-        "ppy.osu.game.rulesets.mania.2023.1224.0.nupkg.sha512",
-        "ppy.osu.game.rulesets.mania.nuspec"
-      ]
-    },
-    "ppy.osu.Game.Rulesets.Osu/2023.1224.0": {
-      "sha512": "8p7WhHFdlmNd1vduMeGLhTqtFYWLfI7zY1+t4e4it0/IrYhK0vLtCjMpyNyNw/9oRrMuhVplNAYoj5zLk5k+8g==",
-      "type": "package",
-      "path": "ppy.osu.game.rulesets.osu/2023.1224.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net6.0/osu.Game.Rulesets.Osu.dll",
-        "lib/net6.0/osu.Game.Rulesets.Osu.xml",
-        "ppy.osu.game.rulesets.osu.2023.1224.0.nupkg.sha512",
-        "ppy.osu.game.rulesets.osu.nuspec"
-      ]
-    },
-    "ppy.osu.Game.Rulesets.Taiko/2023.1224.0": {
-      "sha512": "2hsWr9GpSFfyf9EU6r8wAL7oc3TAUfcWkgScrxpDZR2D+LZrTY4zLq9II0EUY83QxPoUmSjIIkjH62eNrYyqsA==",
-      "type": "package",
-      "path": "ppy.osu.game.rulesets.taiko/2023.1224.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net6.0/osu.Game.Rulesets.Taiko.dll",
-        "lib/net6.0/osu.Game.Rulesets.Taiko.xml",
-        "ppy.osu.game.rulesets.taiko.2023.1224.0.nupkg.sha512",
-        "ppy.osu.game.rulesets.taiko.nuspec"
       ]
     },
     "ppy.osuTK.NS20/1.0.211": {
@@ -6621,36 +6576,35 @@
         "ppy.osutk.ns20.nuspec"
       ]
     },
-    "ppy.SDL2-CS/1.0.671-alpha": {
-      "sha512": "ZIWSOrENbTNJCb4Wo0qyHBIt1gIOjTA1Qn6UK+jZKQawDoHq8J/NQohLRAXISlt0AEmNPn4ho92+Eyf3hU/cAA==",
+    "ppy.SDL3-CS/2024.418.1": {
+      "sha512": "sQ59QByktEXxI0MHo859O373o5vfYdoIrH1Z6BwoDrXAl6MEOxn9icBQPT8FZJHqwwv6ug73086epc/vaDZZgQ==",
       "type": "package",
-      "path": "ppy.sdl2-cs/1.0.671-alpha",
+      "path": "ppy.sdl3-cs/2024.418.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "content/app.config",
-        "contentFiles/any/net6.0/app.config",
-        "lib/net6.0/SDL2-CS.dll",
-        "ppy.sdl2-cs.1.0.671-alpha.nupkg.sha512",
-        "ppy.sdl2-cs.nuspec",
-        "runtimes/ios/native/SDL2.xcframework/Info.plist",
-        "runtimes/ios/native/SDL2.xcframework/ios-arm64/SDL2.framework/Info.plist",
-        "runtimes/ios/native/SDL2.xcframework/ios-arm64/SDL2.framework/SDL2",
-        "runtimes/ios/native/SDL2.xcframework/ios-arm64_x86_64-simulator/SDL2.framework/Info.plist",
-        "runtimes/ios/native/SDL2.xcframework/ios-arm64_x86_64-simulator/SDL2.framework/SDL2",
-        "runtimes/linux-x64/native/libSDL2.so",
-        "runtimes/linux-x86/native/libSDL2.so",
-        "runtimes/osx-arm64/native/libSDL2.dylib",
-        "runtimes/osx-x64/native/libSDL2.dylib",
-        "runtimes/win-arm64/native/SDL2.dll",
-        "runtimes/win-x64/native/SDL2.dll",
-        "runtimes/win-x86/native/SDL2.dll"
+        "lib/net8.0/SDL3-CS.dll",
+        "lib/net8.0/SDL3-CS.xml",
+        "ppy.sdl3-cs.2024.418.1.nupkg.sha512",
+        "ppy.sdl3-cs.nuspec",
+        "runtimes/ios/native/SDL3.xcframework/Info.plist",
+        "runtimes/ios/native/SDL3.xcframework/ios-arm64/SDL3.framework/Info.plist",
+        "runtimes/ios/native/SDL3.xcframework/ios-arm64/SDL3.framework/SDL3",
+        "runtimes/ios/native/SDL3.xcframework/ios-arm64_x86_64-simulator/SDL3.framework/Info.plist",
+        "runtimes/ios/native/SDL3.xcframework/ios-arm64_x86_64-simulator/SDL3.framework/SDL3",
+        "runtimes/linux-x64/native/libSDL3.so",
+        "runtimes/linux-x86/native/libSDL3.so",
+        "runtimes/osx-arm64/native/libSDL3.dylib",
+        "runtimes/osx-x64/native/libSDL3.dylib",
+        "runtimes/win-arm64/native/SDL3.dll",
+        "runtimes/win-x64/native/SDL3.dll",
+        "runtimes/win-x86/native/SDL3.dll"
       ]
     },
-    "ppy.Veldrid/4.9.3-g91ce5a6cda": {
-      "sha512": "oNjLRMQXEDr/L7PfdTCQ8bIEbcYUKfHukp530xMYygCxopHrL+uYm45AP+mvuiP4V9TrH55d6AQCcgN8lXDiEg==",
+    "ppy.Veldrid/4.9.11-ged7d28974e": {
+      "sha512": "UY7tITXBbuZI8f7wp4z2MLvUJKZKno2Euw3lh35WXXwiBavnMnVF5VGiLozlTsnrvA9ZfjvcaBBGC29L+juTuw==",
       "type": "package",
-      "path": "ppy.veldrid/4.9.3-g91ce5a6cda",
+      "path": "ppy.veldrid/4.9.11-ged7d28974e",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6660,33 +6614,33 @@
         "lib/netstandard2.0/ppy.Veldrid.dll",
         "lib/netstandard2.0/ppy.Veldrid.pdb",
         "lib/netstandard2.0/ppy.Veldrid.xml",
-        "ppy.veldrid.4.9.3-g91ce5a6cda.nupkg.sha512",
+        "ppy.veldrid.4.9.11-ged7d28974e.nupkg.sha512",
         "ppy.veldrid.nuspec"
       ]
     },
-    "ppy.Veldrid.MetalBindings/4.9.3-g91ce5a6cda": {
-      "sha512": "SkVfK9SYeVF4Vlg7mAsUqUYPUluHmINU/BuhFP8xytZirjUjZswcjQb5cpTUn1OUNZye4R3iILcdMUZpip0NGQ==",
+    "ppy.Veldrid.MetalBindings/4.9.11-ged7d28974e": {
+      "sha512": "BDtuVa2vGxWYxwHKlpnuVAJqdKnAv/wgs9V1n/ud3daZoLTT8VYHAI8gBfgmnYAni4r93R3KqjtmquGMhUpRoQ==",
       "type": "package",
-      "path": "ppy.veldrid.metalbindings/4.9.3-g91ce5a6cda",
+      "path": "ppy.veldrid.metalbindings/4.9.11-ged7d28974e",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/ppy.Veldrid.MetalBindings.dll",
         "lib/netstandard2.0/ppy.Veldrid.MetalBindings.pdb",
-        "ppy.veldrid.metalbindings.4.9.3-g91ce5a6cda.nupkg.sha512",
+        "ppy.veldrid.metalbindings.4.9.11-ged7d28974e.nupkg.sha512",
         "ppy.veldrid.metalbindings.nuspec"
       ]
     },
-    "ppy.Veldrid.OpenGLBindings/4.9.3-g91ce5a6cda": {
-      "sha512": "pu43f3k3pcHYEGSVF0oCRcnh0iytixhlDWShQypt+c+1kroeyCE/g+8sqWcrOSe/QC3J99UbCU4UxZge9cw91w==",
+    "ppy.Veldrid.OpenGLBindings/4.9.11-ged7d28974e": {
+      "sha512": "Ko04jkTTKK5cQtn6KXuyMjGg5ReOM50PAxQF8n2YQ1YyJ0oY8QJMvisyJd4yrLl9mvF2QCvyXRVWT89QQNeeHw==",
       "type": "package",
-      "path": "ppy.veldrid.openglbindings/4.9.3-g91ce5a6cda",
+      "path": "ppy.veldrid.openglbindings/4.9.11-ged7d28974e",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/ppy.Veldrid.OpenGLBindings.dll",
         "lib/netstandard2.0/ppy.Veldrid.OpenGLBindings.pdb",
-        "ppy.veldrid.openglbindings.4.9.3-g91ce5a6cda.nupkg.sha512",
+        "ppy.veldrid.openglbindings.4.9.11-ged7d28974e.nupkg.sha512",
         "ppy.veldrid.openglbindings.nuspec"
       ]
     },
@@ -6716,6 +6670,19 @@
         "runtimes/osx/native/libveldrid-spirv.dylib",
         "runtimes/win-x64/native/libveldrid-spirv.dll",
         "runtimes/win-x86/native/libveldrid-spirv.dll"
+      ]
+    },
+    "ppy.Vk/1.0.26": {
+      "sha512": "hovUs8hPS2QUChNnaU/3IflJsVtXXMa3KSxRjA3gxBOalTYzL2jD35Dusf7bYDw+imeu56pResM7qDxvKXnvZw==",
+      "type": "package",
+      "path": "ppy.vk/1.0.26",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/vk.dll",
+        "lib/netstandard1.4/vk.dll",
+        "ppy.vk.1.0.26.nupkg.sha512",
+        "ppy.vk.nuspec"
       ]
     },
     "Realm/11.5.0": {
@@ -7053,37 +7020,46 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
-    "Sentry/3.40.0": {
-      "sha512": "QEhLcEQaXrVuPP83Cu9unphMTEL+s+vhKFHlgu6uBvIE8WGlrQ4mcwzsroyCDsrPCWruDS90w1XJAb4PYG6pjw==",
+    "Sentry/4.3.0": {
+      "sha512": "H91fl+qg58QmsRhLCoHOLP6aCqE0vLytf4VavRLRhCGjqExCxJkyA4TC4YhX+3SPV3s0cCMHPu2f3vtRcAaYVw==",
       "type": "package",
-      "path": "sentry/3.40.0",
+      "path": "sentry/4.3.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
+        "build/Sentry.Native.targets",
         "build/Sentry.targets",
+        "buildTransitive/Sentry.Native.targets",
         "buildTransitive/Sentry.targets",
-        "lib/net461/Sentry.dll",
-        "lib/net461/Sentry.xml",
-        "lib/net5.0/Sentry.dll",
-        "lib/net5.0/Sentry.xml",
-        "lib/net6.0-android31.0/Sentry.dll",
-        "lib/net6.0-android31.0/Sentry.xml",
-        "lib/net6.0-ios16.1/Sentry.dll",
-        "lib/net6.0-ios16.1/Sentry.xml",
-        "lib/net6.0-maccatalyst16.1/Sentry.dll",
-        "lib/net6.0-maccatalyst16.1/Sentry.xml",
+        "lib/net462/Sentry.dll",
+        "lib/net462/Sentry.xml",
         "lib/net6.0/Sentry.dll",
         "lib/net6.0/Sentry.xml",
-        "lib/netcoreapp3.0/Sentry.dll",
-        "lib/netcoreapp3.0/Sentry.xml",
+        "lib/net7.0-android33.0/Sentry.dll",
+        "lib/net7.0-android33.0/Sentry.xml",
+        "lib/net7.0-ios16.1/Sentry.dll",
+        "lib/net7.0-ios16.1/Sentry.xml",
+        "lib/net7.0-maccatalyst16.1/Sentry.dll",
+        "lib/net7.0-maccatalyst16.1/Sentry.xml",
+        "lib/net8.0-android34.0/Sentry.dll",
+        "lib/net8.0-android34.0/Sentry.xml",
+        "lib/net8.0-ios17.2/Sentry.dll",
+        "lib/net8.0-ios17.2/Sentry.xml",
+        "lib/net8.0-maccatalyst17.2/Sentry.dll",
+        "lib/net8.0-maccatalyst17.2/Sentry.xml",
+        "lib/net8.0/Sentry.dll",
+        "lib/net8.0/Sentry.xml",
         "lib/netstandard2.0/Sentry.dll",
         "lib/netstandard2.0/Sentry.xml",
         "lib/netstandard2.1/Sentry.dll",
         "lib/netstandard2.1/Sentry.xml",
+        "sentry-native/linux-x64/libsentry-native.a",
+        "sentry-native/osx/libsentry-native.a",
+        "sentry-native/win-x64/sentry-native.lib",
         "sentry-nuget.png",
-        "sentry.3.40.0.nupkg.sha512",
+        "sentry.4.3.0.nupkg.sha512",
         "sentry.nuspec",
         "tools/sentry-cli-Darwin-arm64",
         "tools/sentry-cli-Darwin-x86_64",
@@ -7094,19 +7070,20 @@
         "tools/sentry-cli-Windows-x86_64.exe"
       ]
     },
-    "SharpCompress/0.33.0": {
-      "sha512": "FlHfpTAADzaSlVCBF33iKJk9UhOr3Xj+r5LXbW2GzqYr0SrhiOf6shLX2LC2fqs7g7d+YlwKbBXqWFtb+e7icw==",
+    "SharpCompress/0.36.0": {
+      "sha512": "48am//T6Ou+GmyPmBaxaFN1ym0VNidRcBeANr9+OYTzpKRz8QMGzAkHVkCV30lFQ/gnWqGr50AuebahpG1C6xA==",
       "type": "package",
-      "path": "sharpcompress/0.33.0",
+      "path": "sharpcompress/0.36.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net462/SharpCompress.dll",
         "lib/net6.0/SharpCompress.dll",
         "lib/net7.0/SharpCompress.dll",
+        "lib/net8.0/SharpCompress.dll",
         "lib/netstandard2.0/SharpCompress.dll",
         "lib/netstandard2.1/SharpCompress.dll",
-        "sharpcompress.0.33.0.nupkg.sha512",
+        "sharpcompress.0.36.0.nupkg.sha512",
         "sharpcompress.nuspec"
       ]
     },
@@ -7165,32 +7142,26 @@
         "sharpgen.runtime.com.nuspec"
       ]
     },
-    "SixLabors.ImageSharp/2.1.0": {
-      "sha512": "H8npUDq3VRagzRsJVxaNoUSMmD+kjAs7sR1Ip85eWbN5c0O1medMw/FiQ32dSNfWz/gVrc+xHs3es9SFlAiNBw==",
+    "SixLabors.ImageSharp/3.1.4": {
+      "sha512": "lFIdxgGDA5iYkUMRFOze7BGLcdpoLFbR+a20kc1W7NepvzU7ejtxtWOg9RvgG7kb9tBoJ3ONYOK6kLil/dgF1w==",
       "type": "package",
-      "path": "sixlabors.imagesharp/2.1.0",
+      "path": "sixlabors.imagesharp/3.1.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net472/SixLabors.ImageSharp.dll",
-        "lib/net472/SixLabors.ImageSharp.xml",
-        "lib/netcoreapp2.1/SixLabors.ImageSharp.dll",
-        "lib/netcoreapp2.1/SixLabors.ImageSharp.xml",
-        "lib/netcoreapp3.1/SixLabors.ImageSharp.dll",
-        "lib/netcoreapp3.1/SixLabors.ImageSharp.xml",
-        "lib/netstandard2.0/SixLabors.ImageSharp.dll",
-        "lib/netstandard2.0/SixLabors.ImageSharp.xml",
-        "lib/netstandard2.1/SixLabors.ImageSharp.dll",
-        "lib/netstandard2.1/SixLabors.ImageSharp.xml",
+        "LICENSE",
+        "build/SixLabors.ImageSharp.props",
+        "lib/net6.0/SixLabors.ImageSharp.dll",
+        "lib/net6.0/SixLabors.ImageSharp.xml",
         "sixlabors.imagesharp.128.png",
-        "sixlabors.imagesharp.2.1.0.nupkg.sha512",
+        "sixlabors.imagesharp.3.1.4.nupkg.sha512",
         "sixlabors.imagesharp.nuspec"
       ]
     },
-    "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
-      "sha512": "BmAf6XWt4TqtowmiWe4/5rRot6GerAeklmOPfviOvwLoF5WwgxcJHAxZtySuyW9r9w+HLILnm8VfJFLCUJYW8A==",
+    "SQLitePCLRaw.bundle_e_sqlite3/2.1.8": {
+      "sha512": "zIk4j5WLCj9E/8FV3Zy31ca/5klVKoeiT3bZoY8bOlNpDt/CE1+EUxmeoZ5IW09T2OXG3AwKICcqCaS6aHEPWw==",
       "type": "package",
-      "path": "sqlitepclraw.bundle_e_sqlite3/2.1.6",
+      "path": "sqlitepclraw.bundle_e_sqlite3/2.1.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7203,26 +7174,26 @@
         "lib/net6.0-tvos10.0/SQLitePCLRaw.batteries_v2.dll",
         "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll",
         "lib/xamarinios10/SQLitePCLRaw.batteries_v2.dll",
-        "sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
+        "sqlitepclraw.bundle_e_sqlite3.2.1.8.nupkg.sha512",
         "sqlitepclraw.bundle_e_sqlite3.nuspec"
       ]
     },
-    "SQLitePCLRaw.core/2.1.6": {
-      "sha512": "wO6v9GeMx9CUngAet8hbO7xdm+M42p1XeJq47ogyRoYSvNSp0NGLI+MgC0bhrMk9C17MTVFlLiN6ylyExLCc5w==",
+    "SQLitePCLRaw.core/2.1.8": {
+      "sha512": "jre/gajSA2Bz3kzYD8DxMpJehAtxY5/V2UE/OR0v48zY122hJOXBvGumV+/zEMg1l0lEVFJfJCpkJGQp7GBwRw==",
       "type": "package",
-      "path": "sqlitepclraw.core/2.1.6",
+      "path": "sqlitepclraw.core/2.1.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/SQLitePCLRaw.core.dll",
-        "sqlitepclraw.core.2.1.6.nupkg.sha512",
+        "sqlitepclraw.core.2.1.8.nupkg.sha512",
         "sqlitepclraw.core.nuspec"
       ]
     },
-    "SQLitePCLRaw.lib.e_sqlite3/2.1.6": {
-      "sha512": "2ObJJLkIUIxRpOUlZNGuD4rICpBnrBR5anjyfUFQep4hMOIeqW+XGQYzrNmHSVz5xSWZ3klSbh7sFR6UyDj68Q==",
+    "SQLitePCLRaw.lib.e_sqlite3/2.1.8": {
+      "sha512": "YQnIGZiMskhTogTiZfNe8Y1SK3Tke0JKnLHyPMQjDCa0I/MNsDoEE2fb4g/MZ1MKAn/A66wNxcLvwAC2dr6XPQ==",
       "type": "package",
-      "path": "sqlitepclraw.lib.e_sqlite3/2.1.6",
+      "path": "sqlitepclraw.lib.e_sqlite3/2.1.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7241,6 +7212,7 @@
         "runtimes/linux-mips64/native/libe_sqlite3.so",
         "runtimes/linux-musl-arm/native/libe_sqlite3.so",
         "runtimes/linux-musl-arm64/native/libe_sqlite3.so",
+        "runtimes/linux-musl-s390x/native/libe_sqlite3.so",
         "runtimes/linux-musl-x64/native/libe_sqlite3.so",
         "runtimes/linux-ppc64le/native/libe_sqlite3.so",
         "runtimes/linux-s390x/native/libe_sqlite3.so",
@@ -7258,21 +7230,21 @@
         "runtimes/win10-arm64/nativeassets/uap10.0/e_sqlite3.dll",
         "runtimes/win10-x64/nativeassets/uap10.0/e_sqlite3.dll",
         "runtimes/win10-x86/nativeassets/uap10.0/e_sqlite3.dll",
-        "sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
+        "sqlitepclraw.lib.e_sqlite3.2.1.8.nupkg.sha512",
         "sqlitepclraw.lib.e_sqlite3.nuspec"
       ]
     },
-    "SQLitePCLRaw.provider.e_sqlite3/2.1.6": {
-      "sha512": "PQ2Oq3yepLY4P7ll145P3xtx2bX8xF4PzaKPRpw9jZlKvfe4LE/saAV82inND9usn1XRpmxXk7Lal3MTI+6CNg==",
+    "SQLitePCLRaw.provider.e_sqlite3/2.1.8": {
+      "sha512": "g5pnvmUereQirZkJGbZiOR2Y9bBlhHVt7Vgmnu3CGq00VdyGfD9hyQN0f8yrrSfFfgtbuxWDw2VTdDAOuMZEzQ==",
       "type": "package",
-      "path": "sqlitepclraw.provider.e_sqlite3/2.1.6",
+      "path": "sqlitepclraw.provider.e_sqlite3/2.1.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll",
         "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll",
         "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll",
-        "sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+        "sqlitepclraw.provider.e_sqlite3.2.1.8.nupkg.sha512",
         "sqlitepclraw.provider.e_sqlite3.nuspec"
       ]
     },
@@ -10321,47 +10293,6 @@
         "system.text.encoding.nuspec"
       ]
     },
-    "System.Text.Encoding.CodePages/5.0.0": {
-      "sha512": "NyscU59xX6Uo91qvhOs2Ccho3AR2TnZPomo1Z0K6YpyztBPM/A5VbkzOO19sy3A3i1TtEnTxA7bCe3Us+r5MWg==",
-      "type": "package",
-      "path": "system.text.encoding.codepages/5.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net46/System.Text.Encoding.CodePages.dll",
-        "lib/net461/System.Text.Encoding.CodePages.dll",
-        "lib/net461/System.Text.Encoding.CodePages.xml",
-        "lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
-        "lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
-        "lib/netstandard2.0/System.Text.Encoding.CodePages.xml",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll",
-        "runtimes/win/lib/net461/System.Text.Encoding.CodePages.xml",
-        "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll",
-        "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.xml",
-        "runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
-        "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
-        "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.xml",
-        "system.text.encoding.codepages.5.0.0.nupkg.sha512",
-        "system.text.encoding.codepages.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "System.Text.Encoding.Extensions/4.3.0": {
       "sha512": "YVMK0Bt/A43RmwizJoZ22ei2nmrhobgeiYwFzC4YAN+nue8RF6djXDMog0UCn+brerQoYVyaS+ghy9P/MUVcmw==",
       "type": "package",
@@ -10710,19 +10641,6 @@
         "taglibsharp.nuspec"
       ]
     },
-    "Vk/1.0.25": {
-      "sha512": "n1tpY/n9YV7j+wViUD31yc6TQMK3tkcdUXUbJUr3vIVifrRySzq5hpdxUnvC0SvBp8WrbAgowwd1YDvtc+u67A==",
-      "type": "package",
-      "path": "vk/1.0.25",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net5.0/vk.dll",
-        "lib/netstandard1.4/vk.dll",
-        "vk.1.0.25.nupkg.sha512",
-        "vk.nuspec"
-      ]
-    },
     "Vortice.D3DCompiler/2.4.2": {
       "sha512": "F/758/PioamTyLaVHY8qXK6lt1jKPDNa1VSRf/LGGhMYywVAAydK0xxhlGTrvfj3z+Amzk2fwliCNWTcvpD3Lw==",
       "type": "package",
@@ -10829,16 +10747,60 @@
         "vortice.mathematics.1.4.25.nupkg.sha512",
         "vortice.mathematics.nuspec"
       ]
+    },
+    "ZstdSharp.Port/0.7.4": {
+      "sha512": "ziptnotpUJr51afwXJQ5Wc03dvDiZAdmxS08s1g7SHn/VzbyZUXdH6yORk/zaNjzUOEE6pVZ0Nqztab0rYROgQ==",
+      "type": "package",
+      "path": "zstdsharp.port/0.7.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/ZstdSharp.dll",
+        "lib/net5.0/ZstdSharp.dll",
+        "lib/net6.0/ZstdSharp.dll",
+        "lib/net7.0/ZstdSharp.dll",
+        "lib/net8.0/ZstdSharp.dll",
+        "lib/netcoreapp3.1/ZstdSharp.dll",
+        "lib/netstandard2.0/ZstdSharp.dll",
+        "lib/netstandard2.1/ZstdSharp.dll",
+        "zstdsharp.port.0.7.4.nupkg.sha512",
+        "zstdsharp.port.nuspec"
+      ]
+    },
+    "ppy.osu.Game/0.0.0": {
+      "type": "project",
+      "path": "../osu/osu.Game/osu.Game.csproj",
+      "msbuildProject": "../osu/osu.Game/osu.Game.csproj"
+    },
+    "ppy.osu.Game.Rulesets.Catch/1.0.0": {
+      "type": "project",
+      "path": "../osu/osu.Game.Rulesets.Catch/osu.Game.Rulesets.Catch.csproj",
+      "msbuildProject": "../osu/osu.Game.Rulesets.Catch/osu.Game.Rulesets.Catch.csproj"
+    },
+    "ppy.osu.Game.Rulesets.Mania/1.0.0": {
+      "type": "project",
+      "path": "../osu/osu.Game.Rulesets.Mania/osu.Game.Rulesets.Mania.csproj",
+      "msbuildProject": "../osu/osu.Game.Rulesets.Mania/osu.Game.Rulesets.Mania.csproj"
+    },
+    "ppy.osu.Game.Rulesets.Osu/1.0.0": {
+      "type": "project",
+      "path": "../osu/osu.Game.Rulesets.Osu/osu.Game.Rulesets.Osu.csproj",
+      "msbuildProject": "../osu/osu.Game.Rulesets.Osu/osu.Game.Rulesets.Osu.csproj"
+    },
+    "ppy.osu.Game.Rulesets.Taiko/1.0.0": {
+      "type": "project",
+      "path": "../osu/osu.Game.Rulesets.Taiko/osu.Game.Rulesets.Taiko.csproj",
+      "msbuildProject": "../osu/osu.Game.Rulesets.Taiko/osu.Game.Rulesets.Taiko.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "McMaster.Extensions.CommandLineUtils >= 4.1.0",
-      "ppy.osu.Game >= 2023.1224.0",
-      "ppy.osu.Game.Rulesets.Catch >= 2023.1224.0",
-      "ppy.osu.Game.Rulesets.Mania >= 2023.1224.0",
-      "ppy.osu.Game.Rulesets.Osu >= 2023.1224.0",
-      "ppy.osu.Game.Rulesets.Taiko >= 2023.1224.0"
+      "ppy.osu.Game >= 0.0.0",
+      "ppy.osu.Game.Rulesets.Catch >= 1.0.0",
+      "ppy.osu.Game.Rulesets.Mania >= 1.0.0",
+      "ppy.osu.Game.Rulesets.Osu >= 1.0.0",
+      "ppy.osu.Game.Rulesets.Taiko >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10847,11 +10809,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/daniel/Documents/osu/mass-balancer/mass-balancer.csproj",
+      "projectUniqueName": "/home/daniel/Documents/osu/constantOptimiser/mass-balancer/mass-balancer.csproj",
       "projectName": "mass-balancer",
-      "projectPath": "/home/daniel/Documents/osu/mass-balancer/mass-balancer.csproj",
+      "projectPath": "/home/daniel/Documents/osu/constantOptimiser/mass-balancer/mass-balancer.csproj",
       "packagesPath": "/home/daniel/.nuget/packages/",
-      "outputPath": "/home/daniel/Documents/osu/mass-balancer/obj/",
+      "outputPath": "/home/daniel/Documents/osu/constantOptimiser/mass-balancer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/daniel/.nuget/NuGet/NuGet.Config"
@@ -10865,7 +10827,23 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Catch/osu.Game.Rulesets.Catch.csproj": {
+              "projectPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Catch/osu.Game.Rulesets.Catch.csproj"
+            },
+            "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Mania/osu.Game.Rulesets.Mania.csproj": {
+              "projectPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Mania/osu.Game.Rulesets.Mania.csproj"
+            },
+            "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Osu/osu.Game.Rulesets.Osu.csproj": {
+              "projectPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Osu/osu.Game.Rulesets.Osu.csproj"
+            },
+            "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Taiko/osu.Game.Rulesets.Taiko.csproj": {
+              "projectPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Taiko/osu.Game.Rulesets.Taiko.csproj"
+            },
+            "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game/osu.Game.csproj": {
+              "projectPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game/osu.Game.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -10881,26 +10859,6 @@
           "McMaster.Extensions.CommandLineUtils": {
             "target": "Package",
             "version": "[4.1.0, )"
-          },
-          "ppy.osu.Game": {
-            "target": "Package",
-            "version": "[2023.1224.0, )"
-          },
-          "ppy.osu.Game.Rulesets.Catch": {
-            "target": "Package",
-            "version": "[2023.1224.0, )"
-          },
-          "ppy.osu.Game.Rulesets.Mania": {
-            "target": "Package",
-            "version": "[2023.1224.0, )"
-          },
-          "ppy.osu.Game.Rulesets.Osu": {
-            "target": "Package",
-            "version": "[2023.1224.0, )"
-          },
-          "ppy.osu.Game.Rulesets.Taiko": {
-            "target": "Package",
-            "version": "[2023.1224.0, )"
           }
         },
         "imports": [

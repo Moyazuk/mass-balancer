@@ -13,6 +13,6 @@
     <SourceRoot Include="/home/daniel/.nuget/packages/" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgSentry Condition=" '$(PkgSentry)' == '' ">/home/daniel/.nuget/packages/sentry/3.40.0</PkgSentry>
+    <PkgSentry Condition=" '$(PkgSentry)' == '' ">/home/daniel/.nuget/packages/sentry/4.3.0</PkgSentry>
   </PropertyGroup>
 </Project>
