@@ -22,8 +22,8 @@ namespace MassBalancer
         public int targetPP { get; set; }
         public OsuPerformanceAttributes ppAttribs { get; set;}
         public string name { get; set; }
-        public double ppValue 
-            => ppAttribs is null ? 0 : ppAttribs.Total;
+        public double ppValue
+            => ppAttribs is null ? 0 : ppAttribs.Total * Constants.performanceMultiplier;
         public double difference
             => ppValue - targetPP;
         public double ratio

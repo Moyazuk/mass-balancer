@@ -35,78 +35,81 @@ namespace MassBalancer
             };
             Constants constants = new Constants();
             IEnumerable<PropertyInfo> consts = typeof(Constants).GetProperties(BindingFlags.Instance | BindingFlags.Public);
+            double initialDeviation = DifferenceDev(plays);
             for (int i = 0; i < NUM_REGRESSIONS; i++)
             {
                 foreach (var property in consts)
                 {
-                    double initialDeviation = DifferenceDev(plays);
                     Constant current = Constant.GetFromProperty(property, constants);
                     current.Value /= STEP_MULT;
                     RunPlays(plays);
+                    Constants.performanceMultiplier *= plays.Average(x => x.targetPP) / plays.Average(x => x.ppValue);
                     double decreaseDeviation = DifferenceDev(plays);
                     current.Value *= STEP_MULT * STEP_MULT;
                     RunPlays(plays);
+                    Constants.performanceMultiplier *= plays.Average(x => x.targetPP) / plays.Average(x => x.ppValue);
                     double increaseDeviation = DifferenceDev(plays);
                     current.Value /= STEP_MULT;
-                    constants.performanceBaseMultiplier.Value /= RatioMean(plays);
-                    Console.WriteLine("");
-                    Console.WriteLine(constants);
 
-                    if (decreaseDeviation > initialDeviation && increaseDeviation > decreaseDeviation)
-                        break;
-                    if (decreaseDeviation < increaseDeviation)
+                    if (decreaseDeviation > initialDeviation && increaseDeviation > decreaseDeviation);
+                    else if (decreaseDeviation < increaseDeviation)
+                    {
                         current.Value /= STEP_MULT;
+                        initialDeviation = decreaseDeviation;
+                    }
                     else
                     {
                         current.Value *= STEP_MULT;
+                        initialDeviation = increaseDeviation;
                     }
                 }
+                Console.WriteLine($"Deviation at {i}: {initialDeviation}");
+                Console.WriteLine(constants);
             }
-            RunPlays(plays);
-            constants.performanceBaseMultiplier.Value /= RatioMean(plays);
             RunPlays(plays, true);
             Console.WriteLine(constants);
         }
         private static void RunPlays(List<ScoreSimulatorInfo> plays, bool showOutput=false)
         {
+            if (!showOutput)
+            {
+                RunPlaysParallel(plays);
+                return;
+            }
             foreach (var play in plays)
             {
-                if (showOutput) 
-                    Console.WriteLine($"Calculating {play.name}");
                 play.SetAttribs();
-                OsuPerformanceAttributes attribs = play.ppAttribs;
+                if (showOutput) Console.WriteLine($"{play.name.PadLeft(plays.Max(p => p.name.Length))}: PP - {play.ppValue:F2}. Target - {play.targetPP:F2}. Diff - {play.difference:F2}");
             }
-
-            if (showOutput)
+        }
+        public static void RunPlaysParallel(List<ScoreSimulatorInfo> plays)
+        {
+            Parallel.ForEach(plays, play => 
             {
-                Console.WriteLine("");
-                foreach (var play in plays.OrderBy(x => -Math.Abs(x.difference)))
-                {
-                    Console.WriteLine($"{play.name.PadLeft(plays.Max(p => p.name.Length))}: PP - {play.ppValue:F2}. Target - {play.targetPP:F2}. Diff - {play.difference:F2}");
-                }
-            }
+                play.SetAttribs();
+            });
         }
 
         public static double DifferenceDev(List<ScoreSimulatorInfo> plays)
         {
-            IEnumerable<double> ppDiff = plays.Where(p => p.targetPP != 0).Select(p => p.difference);
+            IEnumerable<double> ppDiff = plays.Select(p => p.difference);
             double mean = ppDiff.Average();
             return Math.Sqrt(ppDiff.Sum(x => Math.Pow(x - mean, 2)) / ppDiff.Count());
         }
         public static double DifferenceMean(List<ScoreSimulatorInfo> plays)
         {
-            IEnumerable<double> ppDiff = plays.Where(p => p.targetPP != 0).Select(p => p.difference);
+            IEnumerable<double> ppDiff = plays.Select(p => p.difference);
             return ppDiff.Average();
         }
         public static double RatioDev(List<ScoreSimulatorInfo> plays)
         {
-            IEnumerable<double> ppDiff = plays.Where(p => p.targetPP != 0).Select(p => p.ratio);
+            IEnumerable<double> ppDiff = plays.Select(p => p.ratio);
             double mean = ppDiff.Average();
             return Math.Sqrt(ppDiff.Sum(x => Math.Pow(x - mean, 2)) / ppDiff.Count());
         }
         public static double RatioMean(List<ScoreSimulatorInfo> plays)
         {
-            IEnumerable<double> ppDiff = plays.Where(p => p.targetPP != 0).Select(p => p.ratio);
+            IEnumerable<double> ppDiff = plays.Select(p => p.ratio);
             return ppDiff.Average();
         }
     }

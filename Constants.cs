@@ -26,6 +26,7 @@ namespace MassBalancer
     public class Constants
     {
         public Constant performanceBaseMultiplier { get; set; }
+        public static double performanceMultiplier = 1;
         public Constant aimMultiplier { get; set; }
         public Constant speedMultiplier { get; set; }
         public Constant speedStrainDecayBase { get; set; }
@@ -52,7 +53,7 @@ namespace MassBalancer
         public override string ToString()
         {
             string output = "";
-            PropertyInfo[] props = this.GetType().GetProperties();
+            PropertyInfo[] props = this.GetType().GetProperties(BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static);
             foreach (PropertyInfo property in props)
                 output += $"{property.Name}: {property.GetValue(this)}\n";
             return output;
