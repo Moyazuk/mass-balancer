@@ -29,27 +29,40 @@ namespace MassBalancer
                 new ScoreSimulatorInfo(3675267, countOk: 14, mods: "DT", targetPP: 1400, name: "Accolibed Azul Remix"),
                 new ScoreSimulatorInfo(1711326, countOk: 45, countMeh: 1, mods: "DT", combo: 1577, targetPP: 1500, name: "Owari"),
                 new ScoreSimulatorInfo(1811527, countOk: 62, countMeh: 2, countMiss: 2, combo: 4088, mods: "DT", targetPP: 1400, name: "mrekk Save me [Nightmare]"),
-                new ScoreSimulatorInfo(2069969, countOk: 37, combo: 1477, mods: "HDDTHR", targetPP: 1400, name:"Rat Race 3mod"),
+                new ScoreSimulatorInfo(2069969, countOk: 37, combo: 1477, mods: "HDDTHR", targetPP: 1380, name:"Rat Race 3mod"),
                 new ScoreSimulatorInfo(4415584, mods:"HDDTHR", targetPP: 1280, name:"Kuki brazil 3mod SS"),
+                new ScoreSimulatorInfo(111680, countOk: 46, combo: 1106, mods:"HDDTHR", targetPP: 1400, name:"ath 3mod"),
             };
             Constants constants = new Constants();
-            PropertyInfo[] consts = typeof(Constants).GetType().GetProperties();
+            IEnumerable<PropertyInfo> consts = typeof(Constants).GetProperties(BindingFlags.Instance | BindingFlags.Public);
             for (int i = 0; i < NUM_REGRESSIONS; i++)
             {
-                double initialDeviation = RatioDev(plays);
-                List<(double dev, PropertyInfo property)> constantDeviationPairs = new List<(double, (PropertyInfo, double));
                 foreach (var property in consts)
                 {
-                    double val = property.GetValue(constants);
-                    property.SetValue(constants, val * STEP_MULT);
-                    RunPlays(plays, true);
-                    constantDeviationPairs.Add(RatioDev(plays), property);
-                    property.SetValue(constants, val / STEP_MULT);
-                }
-                if (initialDeviation > constantDeviationPairs.Max(x => x.dev))
-                    break;
+                    double initialDeviation = DifferenceDev(plays);
+                    Constant current = Constant.GetFromProperty(property, constants);
+                    current.Value /= STEP_MULT;
+                    RunPlays(plays);
+                    double decreaseDeviation = DifferenceDev(plays);
+                    current.Value *= STEP_MULT * STEP_MULT;
+                    RunPlays(plays);
+                    double increaseDeviation = DifferenceDev(plays);
+                    current.Value /= STEP_MULT;
+                    constants.performanceBaseMultiplier.Value /= RatioMean(plays);
+                    Console.WriteLine("");
+                    Console.WriteLine(constants);
 
+                    if (decreaseDeviation > initialDeviation && increaseDeviation > decreaseDeviation)
+                        break;
+                    if (decreaseDeviation < increaseDeviation)
+                        current.Value /= STEP_MULT;
+                    else
+                    {
+                        current.Value *= STEP_MULT;
+                    }
+                }
             }
+            RunPlays(plays);
             constants.performanceBaseMultiplier.Value /= RatioMean(plays);
             RunPlays(plays, true);
             Console.WriteLine(constants);

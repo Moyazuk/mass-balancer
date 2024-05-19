@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danielthirtle/Documents/osu-reworks/constantOpt/mass-balancer/mass-balancer.csproj": {}
+    "/home/daniel/Documents/osu/constantOptimiser/mass-balancer/mass-balancer.csproj": {}
   },
   "projects": {
-    "/Users/danielthirtle/Documents/osu-reworks/constantOpt/mass-balancer/mass-balancer.csproj": {
+    "/home/daniel/Documents/osu/constantOptimiser/mass-balancer/mass-balancer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/mass-balancer/mass-balancer.csproj",
+        "projectUniqueName": "/home/daniel/Documents/osu/constantOptimiser/mass-balancer/mass-balancer.csproj",
         "projectName": "mass-balancer",
-        "projectPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/mass-balancer/mass-balancer.csproj",
-        "packagesPath": "/Users/danielthirtle/.nuget/packages/",
-        "outputPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/mass-balancer/obj/",
+        "projectPath": "/home/daniel/Documents/osu/constantOptimiser/mass-balancer/mass-balancer.csproj",
+        "packagesPath": "/home/daniel/.nuget/packages/",
+        "outputPath": "/home/daniel/Documents/osu/constantOptimiser/mass-balancer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/danielthirtle/.nuget/NuGet/NuGet.Config"
+          "/home/daniel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,20 +26,20 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Catch/osu.Game.Rulesets.Catch.csproj": {
-                "projectPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Catch/osu.Game.Rulesets.Catch.csproj"
+              "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Catch/osu.Game.Rulesets.Catch.csproj": {
+                "projectPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Catch/osu.Game.Rulesets.Catch.csproj"
               },
-              "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Mania/osu.Game.Rulesets.Mania.csproj": {
-                "projectPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Mania/osu.Game.Rulesets.Mania.csproj"
+              "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Mania/osu.Game.Rulesets.Mania.csproj": {
+                "projectPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Mania/osu.Game.Rulesets.Mania.csproj"
               },
-              "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Osu/osu.Game.Rulesets.Osu.csproj": {
-                "projectPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Osu/osu.Game.Rulesets.Osu.csproj"
+              "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Osu/osu.Game.Rulesets.Osu.csproj": {
+                "projectPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Osu/osu.Game.Rulesets.Osu.csproj"
               },
-              "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Taiko/osu.Game.Rulesets.Taiko.csproj": {
-                "projectPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Taiko/osu.Game.Rulesets.Taiko.csproj"
+              "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Taiko/osu.Game.Rulesets.Taiko.csproj": {
+                "projectPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Taiko/osu.Game.Rulesets.Taiko.csproj"
               },
-              "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game/osu.Game.csproj": {
-                "projectPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game/osu.Game.csproj"
+              "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game/osu.Game.csproj": {
+                "projectPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game/osu.Game.csproj"
               }
             }
           }
@@ -48,11 +48,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -75,26 +70,32 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.3, 8.0.3]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Catch/osu.Game.Rulesets.Catch.csproj": {
+    "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Catch/osu.Game.Rulesets.Catch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Catch/osu.Game.Rulesets.Catch.csproj",
+        "projectUniqueName": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Catch/osu.Game.Rulesets.Catch.csproj",
         "projectName": "ppy.osu.Game.Rulesets.Catch",
-        "projectPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Catch/osu.Game.Rulesets.Catch.csproj",
-        "packagesPath": "/Users/danielthirtle/.nuget/packages/",
-        "outputPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Catch/obj/",
+        "projectPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Catch/osu.Game.Rulesets.Catch.csproj",
+        "packagesPath": "/home/daniel/.nuget/packages/",
+        "outputPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Catch/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/danielthirtle/.nuget/NuGet/NuGet.Config"
+          "/home/daniel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -106,8 +107,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game/osu.Game.csproj": {
-                "projectPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game/osu.Game.csproj"
+              "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game/osu.Game.csproj": {
+                "projectPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game/osu.Game.csproj"
               }
             }
           }
@@ -117,11 +118,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -145,26 +141,32 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.3, 8.0.3]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Mania/osu.Game.Rulesets.Mania.csproj": {
+    "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Mania/osu.Game.Rulesets.Mania.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Mania/osu.Game.Rulesets.Mania.csproj",
+        "projectUniqueName": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Mania/osu.Game.Rulesets.Mania.csproj",
         "projectName": "ppy.osu.Game.Rulesets.Mania",
-        "projectPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Mania/osu.Game.Rulesets.Mania.csproj",
-        "packagesPath": "/Users/danielthirtle/.nuget/packages/",
-        "outputPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Mania/obj/",
+        "projectPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Mania/osu.Game.Rulesets.Mania.csproj",
+        "packagesPath": "/home/daniel/.nuget/packages/",
+        "outputPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Mania/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/danielthirtle/.nuget/NuGet/NuGet.Config"
+          "/home/daniel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -176,8 +178,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game/osu.Game.csproj": {
-                "projectPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game/osu.Game.csproj"
+              "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game/osu.Game.csproj": {
+                "projectPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game/osu.Game.csproj"
               }
             }
           }
@@ -187,11 +189,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -215,26 +212,32 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.3, 8.0.3]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Osu/osu.Game.Rulesets.Osu.csproj": {
+    "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Osu/osu.Game.Rulesets.Osu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Osu/osu.Game.Rulesets.Osu.csproj",
+        "projectUniqueName": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Osu/osu.Game.Rulesets.Osu.csproj",
         "projectName": "ppy.osu.Game.Rulesets.Osu",
-        "projectPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Osu/osu.Game.Rulesets.Osu.csproj",
-        "packagesPath": "/Users/danielthirtle/.nuget/packages/",
-        "outputPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Osu/obj/",
+        "projectPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Osu/osu.Game.Rulesets.Osu.csproj",
+        "packagesPath": "/home/daniel/.nuget/packages/",
+        "outputPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Osu/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/danielthirtle/.nuget/NuGet/NuGet.Config"
+          "/home/daniel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -246,8 +249,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game/osu.Game.csproj": {
-                "projectPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game/osu.Game.csproj"
+              "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game/osu.Game.csproj": {
+                "projectPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game/osu.Game.csproj"
               }
             }
           }
@@ -257,11 +260,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -285,26 +283,32 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.3, 8.0.3]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Taiko/osu.Game.Rulesets.Taiko.csproj": {
+    "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Taiko/osu.Game.Rulesets.Taiko.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Taiko/osu.Game.Rulesets.Taiko.csproj",
+        "projectUniqueName": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Taiko/osu.Game.Rulesets.Taiko.csproj",
         "projectName": "ppy.osu.Game.Rulesets.Taiko",
-        "projectPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Taiko/osu.Game.Rulesets.Taiko.csproj",
-        "packagesPath": "/Users/danielthirtle/.nuget/packages/",
-        "outputPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game.Rulesets.Taiko/obj/",
+        "projectPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Taiko/osu.Game.Rulesets.Taiko.csproj",
+        "packagesPath": "/home/daniel/.nuget/packages/",
+        "outputPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game.Rulesets.Taiko/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/danielthirtle/.nuget/NuGet/NuGet.Config"
+          "/home/daniel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -316,8 +320,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game/osu.Game.csproj": {
-                "projectPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game/osu.Game.csproj"
+              "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game/osu.Game.csproj": {
+                "projectPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game/osu.Game.csproj"
               }
             }
           }
@@ -327,11 +331,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -355,26 +354,32 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.3, 8.0.3]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game/osu.Game.csproj": {
+    "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game/osu.Game.csproj": {
       "version": "0.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game/osu.Game.csproj",
+        "projectUniqueName": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game/osu.Game.csproj",
         "projectName": "ppy.osu.Game",
-        "projectPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game/osu.Game.csproj",
-        "packagesPath": "/Users/danielthirtle/.nuget/packages/",
-        "outputPath": "/Users/danielthirtle/Documents/osu-reworks/constantOpt/osu/osu.Game/obj/",
+        "projectPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game/osu.Game.csproj",
+        "packagesPath": "/home/daniel/.nuget/packages/",
+        "outputPath": "/home/daniel/Documents/osu/constantOptimiser/osu/osu.Game/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/danielthirtle/.nuget/NuGet/NuGet.Config"
+          "/home/daniel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -393,11 +398,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -523,12 +523,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.3, 8.0.3]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
