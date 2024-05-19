@@ -18,6 +18,8 @@ namespace MassBalancer
     public class Program
     {
         public static readonly EndpointConfiguration ENDPOINT_CONFIGURATION = new ProductionEndpointConfiguration();
+        const int NUM_REGRESSIONS = 20;
+        const double STEP_MULT = 1.05;
 
         public static void Main(string[] args)
         {
@@ -27,12 +29,30 @@ namespace MassBalancer
                 new ScoreSimulatorInfo(3675267, countOk: 14, mods: "DT", targetPP: 1400, name: "Accolibed Azul Remix"),
                 new ScoreSimulatorInfo(1711326, countOk: 45, countMeh: 1, mods: "DT", combo: 1577, targetPP: 1500, name: "Owari"),
                 new ScoreSimulatorInfo(1811527, countOk: 62, countMeh: 2, countMiss: 2, combo: 4088, mods: "DT", targetPP: 1400, name: "mrekk Save me [Nightmare]"),
-                new ScoreSimulatorInfo(2069969, countOk: 37, combo: 1477, mods: "HDDTHR", targetPP: 1400, name:"Rat Race 3mod")
+                new ScoreSimulatorInfo(2069969, countOk: 37, combo: 1477, mods: "HDDTHR", targetPP: 1400, name:"Rat Race 3mod"),
+                new ScoreSimulatorInfo(4415584, mods:"HDDTHR", targetPP: 1280, name:"Kuki brazil 3mod SS"),
             };
             Constants constants = new Constants();
-            RunPlays(plays, false);
-            constants.performanceBaseMultiplier /= RatioMean(plays);
+            PropertyInfo[] consts = typeof(Constants).GetType().GetProperties();
+            for (int i = 0; i < NUM_REGRESSIONS; i++)
+            {
+                double initialDeviation = RatioDev(plays);
+                List<(double dev, PropertyInfo property)> constantDeviationPairs = new List<(double, (PropertyInfo, double));
+                foreach (var property in consts)
+                {
+                    double val = property.GetValue(constants);
+                    property.SetValue(constants, val * STEP_MULT);
+                    RunPlays(plays, true);
+                    constantDeviationPairs.Add(RatioDev(plays), property);
+                    property.SetValue(constants, val / STEP_MULT);
+                }
+                if (initialDeviation > constantDeviationPairs.Max(x => x.dev))
+                    break;
+
+            }
+            constants.performanceBaseMultiplier.Value /= RatioMean(plays);
             RunPlays(plays, true);
+            Console.WriteLine(constants);
         }
         private static void RunPlays(List<ScoreSimulatorInfo> plays, bool showOutput=false)
         {

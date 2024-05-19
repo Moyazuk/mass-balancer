@@ -20,7 +20,7 @@ namespace MassBalancer
         public int combo { get; set; }
         public string[] mods { get; set; }
         public int targetPP { get; set; }
-        public OsuPerformanceAttributes? ppAttribs { get; set;}
+        public OsuPerformanceAttributes ppAttribs { get; set;}
         public string name { get; set; }
         public double ppValue 
             => ppAttribs is null ? 0 : ppAttribs.Total;
@@ -41,6 +41,8 @@ namespace MassBalancer
             this.mods = new string[mods.Length / 2];
             for (int i = 0; i < mods.Length / 2; i++)
                 this.mods[i] = mods[2*i].ToString() + mods[2*i+1].ToString();
+
+            SetAttribs();
         }
 
 
