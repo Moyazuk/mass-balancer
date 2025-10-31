@@ -25,13 +25,16 @@ namespace MassBalancer
         {
             List<ScoreSimulatorInfo> plays = new List<ScoreSimulatorInfo>()
             {
-                new ScoreSimulatorInfo(1754777, countOk: 84, combo: 2260, mods: "HDDT", targetPP: 1550, name: "Sidetracked Day"),
-                new ScoreSimulatorInfo(3675267, countOk: 14, mods: "DT", targetPP: 1400, name: "Accolibed Azul Remix"),
-                new ScoreSimulatorInfo(1711326, countOk: 45, countMeh: 1, mods: "DT", combo: 1577, targetPP: 1500, name: "Owari"),
-                new ScoreSimulatorInfo(1811527, countOk: 62, countMeh: 2, countMiss: 2, combo: 4088, mods: "DT", targetPP: 1400, name: "mrekk Save me [Nightmare]"),
-                new ScoreSimulatorInfo(2069969, countOk: 37, combo: 1477, mods: "HDDTHR", targetPP: 1380, name:"Rat Race 3mod"),
-                new ScoreSimulatorInfo(4415584, mods:"HDDTHR", targetPP: 1280, name:"Kuki brazil 3mod SS"),
-                new ScoreSimulatorInfo(111680, countOk: 46, combo: 1106, mods:"HDDTHR", targetPP: 1400, name:"ath 3mod"),
+                new ScoreSimulatorInfo(2850905, countOk: 0, combo: 1615, mods: "HDDT", targetPP: 600, name: "Relief"),
+                new ScoreSimulatorInfo(40017, countOk: 23, mods: "HDDTHR", targetPP: 1600, name: "Made of Fire 3mod"),
+                new ScoreSimulatorInfo(1528842, countOk: 27, mods: "HDDT", combo: 3886, targetPP: 1600, name: "Alt comp"),
+                new ScoreSimulatorInfo(3960019, countOk: 22, combo: 1468, mods: "HDDT", targetPP: 1100, name: "Hikari"),
+                new ScoreSimulatorInfo(4894158, countOk: 28, combo: 3480, mods: "HD", targetPP: 720, name:"River Styx"),
+                new ScoreSimulatorInfo(3881559, mods:"HD", combo: 2900, countOk: 5, targetPP: 760, name:"Epitaph"),
+                new ScoreSimulatorInfo(2022718, mods:"HDHR", combo: 617, targetPP: 460, name:"Ai no Sukima"),
+                new ScoreSimulatorInfo(4808501, mods:"HDDT", combo: 590, targetPP: 1600, name:"Zetsubou"),
+                new ScoreSimulatorInfo(4776435, mods:"HD", combo: 1530, targetPP: 680, name:"Uncontrollable"),
+                new ScoreSimulatorInfo(3745820, mods:"HDDT", combo: 1530, targetPP: 1680, name:"Brazil HDDT"),
             };
             Constants constants = new Constants();
             IEnumerable<PropertyInfo> consts = typeof(Constants).GetProperties(BindingFlags.Instance | BindingFlags.Public);
